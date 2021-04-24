@@ -1,0 +1,40 @@
+- type: Faculty
+  members:
+    - name: Meng Wang<br>(head of group)
+      pic: Meng.jpg
+      url: https://mengwangoxf.github.io/
+
+    - name: François Dupressoir
+      pic: Francois.jpg
+      url: https://fdupress.net/
+
+    - name: Steven Ramsay
+      pic: Steven.jpg
+      url: https://stersay.github.io/
+
+    - name: Cristina David
+      pic: Cristina.jpg
+    
+    - name: Alex Kavvos
+      pic: Alex.jpg
+      url: https://www.lambdabetaeta.eu
+
+- type: Postdocs
+  members:
+    - name: Jerome Jochems
+      pic: Jerome.jpg
+      url: 
+
+- type: Students
+  members:
+    - name: Sam Frohlich
+      pic: Sam.jpg
+      url: 
+
+    - name: Minh Nguyen
+      pic: Minh.png
+      url:
+
+    - name: Eddie Jones
+      pic: Eddie.png
+      url: https://research-information.bris.ac.uk/en/persons/eddie-c-jones

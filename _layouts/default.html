@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-GB" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script>
+      var require = {
+        config: {
+          'research-data': {
+            'keywords' : 'Programming Languages',
+            'type' : 'full',
+            'show' : 20,
+            'searchResultsTarget': 'searchresults',
+             //'searchFormEnabled': true,
+             //'paginationEnabled': true,
+             //'year': 2010
+             'paginationTarget': 'searchpages',
+             'searchFormTarget': 'searchform',
+             'searchBannerTarget': 'searchbanner',
+             'searchButtonCss': 'btn bg-d-blue',
+             //'sizeSearch' : 'true',
+             //'dateSearch' : 'true',
+             'orderSearch' : 'true',
+             'typeSearch' : 'true'
+          }
+        }
+      };
+    </script>
+    <script data-main="https://www.bris.ac.uk/research/research-data/remote/research-data" src="https://www.bris.ac.uk/research/research-data/webjars/requirejs/2.1.17/require.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center">{{ site.name }}</h1>
+    </header>
+
+    <div class="container-md markdown-body">
+      {{ content }}
+    </div>
+  </body>
+</html>
