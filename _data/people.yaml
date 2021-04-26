@@ -24,6 +24,9 @@
     - name: Jerome Jochems
       pic: Jerome.jpg
       url: 
+    - name: Weixin Zhang
+      pic: Weixin.jpg
+      url: https://wxzh.github.io/
 
 - type: Students
   members:
