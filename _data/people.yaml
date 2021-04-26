@@ -32,12 +32,20 @@
   members:
     - name: Sam Frohlich
       pic: Sam.jpg
-      url: 
+      url: https://research-information.bris.ac.uk/en/persons/samantha-frohlich
 
     - name: Minh Nguyen
       pic: Minh.png
-      url:
+      url: https://research-information.bris.ac.uk/en/persons/minh-h-nguyen
 
     - name: Eddie Jones
       pic: Eddie.png
       url: https://research-information.bris.ac.uk/en/persons/eddie-c-jones
+
+    - name: Joe Bond
+      pic:
+      url: https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond
+
+    - name: Yoav Alon
+      pic:
+      url: https://research-information.bris.ac.uk/en/persons/yoav-alon
