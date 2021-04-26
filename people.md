@@ -7,7 +7,7 @@
       <figure class="figure">
         <a href="{{ person.url }}">
           {% if person.pic == nil %}
-            <i class="icon-user" style="font-size: 8rem"></i>
+            <i class="icon-user" style="font-size: 12rem"></i>
           {% else %}
             <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;"
                 src="{{ "/assets/images/" | append: person.pic }}">
