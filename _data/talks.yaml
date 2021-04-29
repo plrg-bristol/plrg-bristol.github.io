@@ -1,0 +1,25 @@
+
+- date: 2021-04-23
+  abstract: "Lucas O'Dowd-Jones is going to talk about implementing _normalisation by evaluation using GADTs in Haskell_."
+
+- date: 2021-03-26
+  abstract: "Jamie Willis will be presenting the second part of his work on trampolines and stack safetty."
+
+- date: 2021-03-19
+  abstract: "Joe Bond is going to be giving us an intro to program _synthesis_."
+
+- date: 2021-03-12
+  abstract: "Jamie Willis will be talking to us about functional programming under-the-hood and his new found love of _trampolines_!"
+
+- date: 2021-03-05
+  abstract: "[Ningning Xie](https://xnning.github.io/) will be presenting some of her amazing work on making type-base language design and type-driven development a reality.
+In particular, we will be exploring kind inference and computational effects."
+
+- date: 2021-02-26
+  abstract: "Alessio Zakaria is going to give us a glimpse into the murky world of reverse Turing machines, information complexity, and the arrow of time."
+
+- date: 2021-02-19
+  abstract: "Sam Frohlich will be talking to us about a _HoTT take on lenses_. These are two very interesting topics bridging the gap between concepts you might find in a class on algebraic topology and industrial-strength programming patterns for functional references."
+
+- date: 2021-02-12
+  abstract: "Eddie Jones will give a talk on _cyclic proofs_."
