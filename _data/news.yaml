@@ -1,5 +1,11 @@
 # Most recent news item goes first; Markdown is allowed.
 
+- date: "July 2021"
+  contents: "Alex Kavvos serves in the POPL 2022 program committee."
+
+- date: "June 2021"
+  contents: "Hanliang Zhang joins the group as a research assistant."
+
 - date: "April 2021"
   contents: "Our PhD students are attending the [Midlands Graduate School](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html)."
 
