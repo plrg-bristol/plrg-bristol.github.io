@@ -8,12 +8,13 @@ title: Programming Languages @ Bristol
 This is the website of the **Programming Languages Research Group** at the [University of Bristol](https://www.bristol.ac.uk).
 
 Our research interests include:
-  * design and implementation
   * functional programming
   * program analysis
   * program synthesis
-  * security and programming languages
-  * mathematical foundations
+  * verification
+  * security, cryptography, and programming languages
+  * semantics of programming languages
+  * type theory
 
 Visit our [GitHub page](https://github.com/bristolpl).
 <a href="https://github.com/bristolpl">
