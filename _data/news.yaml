@@ -1,5 +1,9 @@
 # Most recent news item goes first; Markdown is allowed.
 
+
+- date: "August, 2021"
+  contents: "Minh Nguyen won the first place at the ACM Student Research Competition (ICFP) with *Composable, Modular Probabilistic Models*. Congratulations Minh!"
+
 - date: "July 2021"
   contents: "Alex Kavvos serves in the [POPL 2022](https://popl22.sigplan.org/) program committee."
 
