@@ -14,7 +14,7 @@
 
     - name: Cristina David
       pic: Cristina.jpg
-    
+
     - name: Alex Kavvos
       pic: Alex.jpg
       url: https://www.lambdabetaeta.eu
@@ -23,7 +23,7 @@
   members:
     - name: Jerome Jochems
       pic: Jerome.jpg
-      url: 
+      url:
     - name: Weixin Zhang
       pic: Weixin.jpg
       url: https://wxzh.github.io/
@@ -36,7 +36,7 @@
 
     - name: Minh Nguyen
       pic: Minh.png
-      url: https://research-information.bris.ac.uk/en/persons/minh-h-nguyen
+      url: https://min-nguyen.github.io/
 
     - name: Eddie Jones
       pic: Eddie.png
