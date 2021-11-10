@@ -9,7 +9,7 @@
           {% if person.pic == nil %}
             <i class="icon-user" style="font-size: 12rem"></i>
           {% else %}
-            <img class="figure-img img-fluid rounded"
+            <img class="figure-img rounded"
                 src="{{ "/assets/images/" | append: person.pic }}">
           {% endif %}
         </a>

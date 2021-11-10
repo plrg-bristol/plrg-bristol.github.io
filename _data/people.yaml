@@ -55,13 +55,12 @@
       pic:
       url: https://research-information.bris.ac.uk/en/persons/yoav-alon
 
-- type: Affiliated Researchers
+- type: Affiliated Members
   members:
-    - name: Roly Perera
-      pic:
-
-- type: Honorary Lecturers
-  members:
-    - name: Sanjay Rawat
+    - name: Roly Perera <br> (ATI)
+      pic: Roly.png
+      url: http://dynamicaspects.org/research/
+    - name: Sanjay Rawat <br> (TII, Hononary Lecturer)
       pic:
       url: https://uk.linkedin.com/in/sanjayr4security
+      note: "hi"
