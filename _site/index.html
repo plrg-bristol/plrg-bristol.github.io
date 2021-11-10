@@ -1,57 +1,329 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-GB">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,
-				   initial-scale=1, shrink-to-fit=no">
-
-    <meta property="og:title" content="PL@Bristol">
-    <meta property="og:description" content="Programming Languages @ Bristol">
-    <meta property="og:image" content="http://bristolpl.github.io/images/suspension-lambda.jpeg">
-    <meta property="og:url" content="https://bristolpl.github.io">
-
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="icon" href="images/favicon.jpg" sizes="16x16" />
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic" rel="stylesheet" type="text/css">
-
-    <title>PL@Bristol</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script>
+      var require = {
+        config: {
+          'research-data': {
+            'keywords' : 'Programming Languages',
+            'type' : 'full',
+            'show' : 20,
+            'searchResultsTarget': 'searchresults',
+             //'searchFormEnabled': true,
+             //'paginationEnabled': true,
+             //'year': 2010
+             'paginationTarget': 'searchpages',
+             'searchFormTarget': 'searchform',
+             'searchBannerTarget': 'searchbanner',
+             'searchButtonCss': 'btn bg-d-blue',
+             //'sizeSearch' : 'true',
+             //'dateSearch' : 'true',
+             'orderSearch' : 'true',
+             'typeSearch' : 'true'
+          }
+        }
+      };
+    </script>
+    <script data-main="https://www.bris.ac.uk/research/research-data/remote/research-data" src="https://www.bris.ac.uk/research/research-data/webjars/requirejs/2.1.17/require.min.js"></script>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto" style="font-size: 1.15rem">
-            <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="./people.html">People</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://github.com/bristolpl" target="_blank">Github</a></li>
-            <li class="nav-item"><a class="nav-link" href="http://www.bristol.ac.uk/engineering/research/theory-algorithms/publications-programming-languages/" target="_blank">Publications</a></li>
-          </ul>
-        </div>
-      </nav>
+      <h1 class="text-center">Programming Languages @ Bristol</h1>
     </header>
 
-    <div class="container text-center mt-4 mx-auto">
-      <h1>Programming Languages @ Bristol</h1>
+    <div class="container markdown-body" style="width: 66em;">
+      <p><img src="/assets/images/suspension-lambda.jpeg" class="rounded mx-auto d-block" style="max-height: 30rem; margin-bottom: 1em" /></p>
 
-<img class="img-fluid center-block w-50 mt-1 mb-1" src="./images/suspension-lambda.jpeg" />
+<p>This is the website of the <strong>Programming Languages Research Group</strong> at the <a href="https://www.bristol.ac.uk">University of Bristol</a>.</p>
 
+<p>Our research interests include:</p>
+<ul>
+  <li>functional programming</li>
+  <li>program analysis</li>
+  <li>program synthesis</li>
+  <li>verification</li>
+  <li>security, cryptography, and programming languages</li>
+  <li>semantics of programming languages</li>
+  <li>type theory</li>
+</ul>
 
+<p>Visit our <a href="https://github.com/bristolpl">GitHub page</a>.
+<a href="https://github.com/bristolpl">
+    <i class="icon-github" style="font-size: 2em"></i>
+</a></p>
 
-    </div>
+<h2 id="news">News</h2>
 
-    <div class="footer float-right">
-        Generated using <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
+<table class="table">
+  <thead></thead>
+  <tbody>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">November 2021</span></td>
+      <td><p>Cristina David will serve on the <a href="https://conf.researchr.org/home/icse-2023">ICSE 2023</a> program committee. She’s currently serving on the <a href="https://etaps.org/2022/esop">ESOP 2022</a> program committee.</p>
+</td>
+    </tr>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">September 2021</span></td>
+      <td><p>Two papers from the group accepted at POPL 2022.</p>
+</td>
+    </tr>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">September 2021</span></td>
+      <td><p>Alex Kavvos has won the Distinguished Paper Award at <a href="https://icfp21.sigplan.org/">ICFP 2021</a> for the paper <a href="https://dl.acm.org/doi/10.1145/3473567"><em>Client-Server Sessions in Linear Logic</em></a> (with Zesen Qian and <a href="https://cs.au.dk/~birke/">Lars Birkedal</a>).</p>
+</td>
+    </tr>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">August 2021</span></td>
+      <td><p><a href="https://min-nguyen.github.io">Minh Nguyen</a> won the first place at the ACM Student Research Competition (ICFP) with <em>Composable, Modular Probabilistic Models</em>. Congratulations Minh!</p>
+</td>
+    </tr>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">July 2021</span></td>
+      <td><p>Alex Kavvos serves in the <a href="https://popl22.sigplan.org/">POPL 2022</a> program committee.</p>
+</td>
+    </tr>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">June 2021</span></td>
+      <td><p>Hanliang Zhang joins the group as a research assistant.</p>
+</td>
+    </tr>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">April 2021</span></td>
+      <td><p>Our PhD students are attending the <a href="https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html">Midlands Graduate School</a>.</p>
+</td>
+    </tr>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">February 2021</span></td>
+      <td><p>We (PI Meng Wang; CoI Cristina David) have received funding from <a href="https://www.ncsc.gov.uk/">National Cyber Security Centre (NCSC)</a> to work on Verified Program Synthesis for Refactoring Rust Programs</p>
+</td>
+    </tr>
+  
+    <tr>
+      <td scope="row"><span class="newsdate">November 2020</span></td>
+      <td><p>Webpage goes live!</p>
+</td>
+    </tr>
+  
+  </tbody>
+</table>
+
+<h2 id="people">People</h2>
+
+<h3 id="faculty">Faculty</h3>
+
+<div class="d-flex flex-row flex-wrap justify-content-center">
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://mengwangoxf.github.io/">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Meng.jpg" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://mengwangoxf.github.io/">
+            Meng Wang<br />(head of group)
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://fdupress.net/">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Francois.jpg" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://fdupress.net/">
+            François Dupressoir
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://stersay.github.io/">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Steven.jpg" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://stersay.github.io/">
+            Steven Ramsay
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Cristina.jpg" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="">
+            Cristina David
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://www.lambdabetaeta.eu">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Alex.jpg" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://www.lambdabetaeta.eu">
+            Alex Kavvos
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+</div>
+
+<h3 id="postdocs">Postdocs</h3>
+
+<div class="d-flex flex-row flex-wrap justify-content-center">
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Jerome.jpg" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="">
+            Jerome Jochems
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://wxzh.github.io/">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Weixin.jpg" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://wxzh.github.io/">
+            Weixin Zhang
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+</div>
+
+<h3 id="students">Students</h3>
+
+<div class="d-flex flex-row flex-wrap justify-content-center">
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://research-information.bris.ac.uk/en/persons/samantha-frohlich">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Sam.jpg" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://research-information.bris.ac.uk/en/persons/samantha-frohlich">
+            Sam Frohlich
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://min-nguyen.github.io/">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Minh.png" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://min-nguyen.github.io/">
+            Minh Nguyen
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://research-information.bris.ac.uk/en/persons/eddie-c-jones">
+          
+            <img class="figure-img img-fluid rounded" style="max-height: 12rem; max-width: 12rem;" src="/assets/images/Eddie.png" />
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://research-information.bris.ac.uk/en/persons/eddie-c-jones">
+            Eddie Jones
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond">
+          
+            <i class="icon-user" style="font-size: 12rem"></i>
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond">
+            Joe Bond
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+      <div class="p-4 bd-highlight">
+      <figure class="figure">
+        <a href="https://research-information.bris.ac.uk/en/persons/yoav-alon">
+          
+            <i class="icon-user" style="font-size: 12rem"></i>
+          
+        </a>
+        <figcaption class="figure-caption text-center">
+          <a href="https://research-information.bris.ac.uk/en/persons/yoav-alon">
+            Yoav Alon
+          </a>
+        </figcaption>
+      </figure>
+  </div>
+  
+</div>
+
+<h2 id="publications">Publications</h2>
+
+<div id="searchresults"></div>
+
     </div>
   </body>
 </html>
