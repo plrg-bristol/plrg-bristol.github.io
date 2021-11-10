@@ -14,6 +14,7 @@
 
     - name: Cristina David
       pic: Cristina.jpg
+      url: https://research-information.bris.ac.uk/en/persons/cristina-david
 
     - name: Alex Kavvos
       pic: Alex.jpg
@@ -43,9 +44,24 @@
       url: https://research-information.bris.ac.uk/en/persons/eddie-c-jones
 
     - name: Joe Bond
-      pic:
+      pic: #Joe.jpg
       url: https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond
+
+    - name: Hanliang Zhang
+      pic: #
+      url: #https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond
 
     - name: Yoav Alon
       pic:
       url: https://research-information.bris.ac.uk/en/persons/yoav-alon
+
+- type: Affiliated Researchers
+  members:
+    - name: Roly Perera
+      pic:
+
+- type: Honorary Lecturers
+  members:
+    - name: Sanjay Rawat
+      pic:
+      url: https://uk.linkedin.com/in/sanjayr4security
