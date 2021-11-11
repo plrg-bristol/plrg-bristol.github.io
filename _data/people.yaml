@@ -44,7 +44,7 @@
       url: https://research-information.bris.ac.uk/en/persons/eddie-c-jones
 
     - name: Joe Bond
-      pic: #Joe.jpg
+      pic: Joe.png
       url: https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond
 
     - name: Hanliang Zhang
@@ -61,6 +61,5 @@
       pic: Roly.png
       url: http://dynamicaspects.org/research/
     - name: Sanjay Rawat <br> (TII, Hononary Lecturer)
-      pic:
+      pic: Sanjay.jpg
       url: https://uk.linkedin.com/in/sanjayr4security
-      note: "hi"
