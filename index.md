@@ -39,6 +39,13 @@ Visit our [GitHub page](https://github.com/bristolpl).
 
 {% include_relative people.md %}
 
+## Teaching
+
+| COMS20007 | Programming Languages and Computation    |
+| COMS30040 | Lambda Calculus and Types                                                                               |
+| COMSM0067 | Advanced Topics in Programming Languages <br>
+              ([2021/22](https://bristolpl.github.io/APL-2021-Unit-Website/) |
+
 ## Publications
 
 <div id="searchresults"></div>
