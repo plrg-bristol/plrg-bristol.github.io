@@ -1,6 +1,8 @@
 # Most recent news item goes first; Markdown is allowed.
 
 - date: "November 2021"
+  contents: <div> Sam Frolich is giving a series of lectures on embedded domain specific languages! Here's a lecture premier.  <iframe width="560" height="315" src="https://www.youtube.com/embed/z8uPHKOTx6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+- date: "November 2021"
   contents: "Cristina David will serve on the [ICSE 2023](https://conf.researchr.org/home/icse-2023) program committee. She's currently serving on the [ESOP 2022](https://etaps.org/2022/esop) program committee."
 
 - date: "September 2021"
