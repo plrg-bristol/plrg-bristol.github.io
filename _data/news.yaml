@@ -1,6 +1,15 @@
 # Most recent news item goes first; Markdown is allowed.
+- date: "June 2022"
+  contents: "Two papers from the group are accepted at ICFP and FSE. They represent our new venture into probabilistic programming languages and program analysis through machine learning."
+
+- date: "June 2022"
+  contents: "Two new research posts are open in the group. Please get in touch if you are interested."
+
 - date: "May 2022"
   contents: "Cristina David's Royal Society University Research Fellowship has been extended for another three years. Also, she received funding for a research assistant."
+
+- date: "February 2022"
+  contents: "Paper accepted at PLDI."
 
 - date: "January 2022"
   contents: <div> Roly Perera presented <a href="http://dynamicaspects.org/papers/popl22-final.pdf">Linked Visualisations via Galois Dependencies</a> (with Minh Nguyen, Tomas Petricek and Meng Wang) at POPL 2022.  <p><iframe width="480" height="270" src="https://www.youtube.com/embed/Ov1HOMKn8t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div> <div> Sam Frohlich presented <a href="https://arxiv.org/pdf/2111.12420.pdf">CircuitFlow - A Domain Specific Language for Dataflow Programming </a> (with Riley Evans and Meng Wang) at PADL 2022.  <p><iframe width="480" height="270" src="https://www.youtube.com/embed/LGaTnxYcdm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div> <div> NingNing Xie presented <a href="https://xnning.github.io/papers/staging-with-class.pdf">Staging with Class</a> (with Matthew Pickering, Andres Loh, Nicolas Wu, Jeremy Yallop, and Meng Wang) at POPL 2022.  <p><iframe width="480" height="270" src="https://www.youtube.com/embed/SUZ-eqprNg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
