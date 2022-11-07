@@ -1,7 +1,7 @@
 {
-  "name": "gitweb",
+  "name": "programming_languages_bristol",
   "version": "0.1.0",
-  "homepage": "https://zakstucke.github.io",
+  "homepage": "https://bristolpl.github.io/",
   "private": true,
   "dependencies": {
     "@react-spring/web": "^9.5.2",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && cp README.md build/README.md",
+    "deploy": "gh-pages -d build -b master && cp README.md build/README.md",
     "start": "node ./src/buildRobots.js && react-app-rewired start",
     "build": "PROD=True node ./src/buildRobots.js && react-app-rewired build",
     "test": "node ./src/buildRobots.js && react-app-rewired test",
