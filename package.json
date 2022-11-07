@@ -22,7 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master && cp README.md build/README.md",
+    "deploy": "gh-pages -d build -b master",
     "start": "node ./src/buildRobots.js && react-app-rewired start",
     "build": "PROD=True node ./src/buildRobots.js && react-app-rewired build",
     "test": "node ./src/buildRobots.js && react-app-rewired test",
@@ -54,6 +54,7 @@
     "@babel/register": "^7.18.9",
     "assert": "^2.0.0",
     "buffer": "^6.0.3",
+    "copy-webpack-plugin": "11.0.0",
     "crypto-browserify": "^3.12.0",
     "gh-pages": "^4.0.0",
     "https-browserify": "^1.0.0",

@@ -1,9 +1,7 @@
 This project uses [Create React App](https://github.com/facebook/create-react-app) and [React-Github-Pages](https://github.com/gitname/react-gh-pages).
 
-# Requirements
-- Install node & npm (tested with node 16)
-
 # Prerequisites
+- Install node & npm (tested with node 16)
 - Clone the repository locally: `git clone https://github.com/bristolpl/bristolpl.github.io.git`
 - Switch the dev branch: `git checkout dev`
 - Install the required node modules: `npm i`
@@ -13,10 +11,12 @@ This project uses [Create React App](https://github.com/facebook/create-react-ap
 
 This is how you can test changes and check everything is working on the site.
 
-# Deploy the site to github pages
+# Deploy the site
+Make sure you're on the `dev` branch.
+
 `npm run-script deploy`
 
-This command compiles the code into frontend js, deploys the compiled website to the `gh-pages` branch and updates the live website, so only run this once you're happy with the updated version you've tested locally with `npm start`. 
+This command compiles the code into frontend js, deploys the compiled website to the `master` branch and updates the live website, so only run this once you're happy with the updated version you've tested locally with `npm start`. 
 
 After running the command, you should be able to monitor deployment progress in the Actions tab of the github repository. (https://github.com/bristolpl/bristolpl.github.io/actions)
 

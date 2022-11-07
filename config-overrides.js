@@ -1,4 +1,5 @@
 const webpack = require("webpack");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = function override(config) {
   // Add in some polyfills:
@@ -19,6 +20,10 @@ module.exports = function override(config) {
     new webpack.ProvidePlugin({
       process: "process/browser",
       Buffer: ["buffer", "Buffer"],
+    }),
+    // Include the docs folder files in the build so it shows up on the compiled branch:
+    new CopyWebpackPlugin({
+      patterns: [{ from: "docs" }],
     }),
   ]);
 
