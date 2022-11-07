@@ -1,0 +1,200 @@
+@use "scss_global/variables";
+@use "scss_global/mixins";
+
+@media (max-width: variables.$medium-screen-width) {
+    .smallScreenCollapseSection {
+        :global(.nav-link),
+        :global(.navbar-nav) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+        }
+
+        // Add border above dropdown section:
+        &:global(.collapsing),
+        &:global(.show) {
+          border-top: 3px solid var(--color-primary);
+        }      
+        
+        // Want the site-mode icon to have more padding in the dropdown:
+        .site-mode {
+          padding-top: 10px !important;
+          padding-bottom: 10px !important;
+        }        
+    }      
+}
+
+.site-header {
+  margin-bottom: 0px;
+  border-bottom: 3px solid var(--color-primary);
+  background-color: var(--color-base-dark);
+
+  & .dropdown {
+    color: var(--color-primary);
+    .real-link {
+      font-family: variables.$primary-font;
+      font-weight: variables.$primary-font-weight;
+    }
+  }
+
+  & :global(.navbar-toggler) {
+    padding: 0;
+    @include mixins.magicBorder(
+      2px,
+      var(--color-primary),
+      variables.$super-quick-change,
+      0
+    );
+    border: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    .holder {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      cursor: pointer;
+      border-radius: 5px;
+
+      & span {
+        display: block;
+        background: var(--color-primary);
+        border-radius: 2px;
+      }
+
+      & .hamburger {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        span {
+          @include mixins.animateChange($attributes: width height);
+          width: 0%;
+          height: 3px;
+          position: relative;
+          top: 12px;
+          left: 10px;
+          margin: 5px 0;
+          &:nth-child(1) {
+            transition-delay: 0s;
+          }
+          &:nth-child(2) {
+            transition-delay: 0.125s;
+          }
+          &:nth-child(3) {
+            transition-delay: 0.25s;
+          }
+        }
+      }
+      & .cross {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transform: rotate(45deg);
+        span {
+          @include mixins.animateChange($attributes: width height);
+          &:nth-child(1) {
+            height: 80%;
+            width: 3px;
+            position: absolute;
+            top: 10%;
+            left: 24px;
+            transition-delay: 0.625s;
+          }
+          &:nth-child(2) {
+            width: 80%;
+            height: 3px;
+            position: absolute;
+            left: 10%;
+            top: 24px;
+            transition-delay: 0.375s;
+          }
+        }
+      }
+    }
+
+    &:global(.collapsed) .holder {
+      .hamburger {
+        span {
+          width: 30px;
+          &:nth-child(1) {
+            transition-delay: 0.5s;
+          }
+          &:nth-child(2) {
+            transition-delay: 0.625s;
+          }
+          &:nth-child(3) {
+            transition-delay: 0.75s;
+          }
+        }
+      }
+      .cross {
+        span {
+          &:nth-child(1) {
+            height: 0%;
+            transition-delay: 0s;
+          }
+          &:nth-child(2) {
+            width: 0%;
+            transition-delay: 0.25s;
+          }
+        }
+      }
+    }
+  }
+
+  & :global(.show) a:global(.nav-link),
+  & :global(.nav-link) {
+    @include mixins.animateChange(variables.$super-quick-change, transform);
+
+    font-size: 125%;
+
+    position: relative;
+    text-decoration: none;
+    font-family: variables.$primary-font;
+    font-weight: variables.$primary-font-weight;
+
+    padding-top: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 2px;
+    color: var(--color-primary);
+
+    &:global(.dropdown-toggle),
+    &.real-link {
+      color: var(--color-primary) !important;
+
+      &:hover {
+        transform: scale(1.1);
+
+        // To stop the underlines on everything other than the brand being diffirent heights do the scaling upwards rather than from center:
+        &:not(:global(.navbar-brand)):not(.site-mode) {
+          transform-origin: bottom;
+        }
+      }
+
+      &:active {
+        // Slightly larger than hover on click:
+        transform: scale(1.15);
+      }
+
+      // Add underline to everything except the logo and the site-mode widget:
+      &:not(:global(.navbar-brand)):not(.site-mode) {
+        @include mixins.animateUnderline();
+
+        // Keep underlined if active:
+        &:global(.active)::before {
+          transform: scaleX(1);
+        }
+      }
+    }
+
+    &.fake-link {
+      color: inherit !important;
+      cursor: default;
+      text-decoration: none;
+    }
+  }
+}

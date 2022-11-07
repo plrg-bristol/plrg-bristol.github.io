@@ -1,0 +1,17 @@
+@import "variables"; // Can't use "use" like normal, as only "import" works when processing in python
+
+// DO NOT IMPORT THIS FILE IN SCSS FILES! USED ONLY TO ALLOW IMPORTS DIRECTLY TO PYTHON AND JS.
+// If this were to be in e.g. _variables.scss, every time that was imported in scss it would be copied.
+
+// Export the css needed in js and python:
+:export {
+  // Export colors from each theme by flattening and prepending the theme, e.g. color-dark --> light-theme-color-dark
+  @each $themeName, $themeColors in $colors {
+    @each $colorName, $colorValue in $themeColors {
+      #{"#{$themeName}-#{$colorName}"}: $colorValue;
+    }
+  }
+  primary-font: $primary-font;
+  secondary-font: $secondary-font;
+}
+

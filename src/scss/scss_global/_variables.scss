@@ -1,0 +1,55 @@
+@use "sass:map";
+
+// These will all get parsed into variables with a "color" prefix e.g. color-base, color-text etc.
+// NOTE: always need the exact same color keys in all themes
+$colors: (
+  light-theme: (
+    color-base: #DFE1DF,
+    color-text: #000000, 
+    color-primary: #6f8ca3,
+    color-secondary: #DFADC6,
+    color-tertiary: #829098,
+    color-success: #198754,
+    color-failure: #ff0000,
+    color-warning: #ffc107,
+    color-grey: #808080,
+  )
+);
+
+// Add in all the color derivatives to each theme e.g. color-base-transparent-light etc:
+@each $themeName, $themeColors in $colors {
+  @each $colorName, $colorValue in $themeColors {
+    $colors: map.set($colors, $themeName, #{$colorName}-transparent-light, #{rgba($colorValue, 0.2)});
+    $colors: map.set($colors, $themeName, #{$colorName}-transparent, #{rgba($colorValue, 0.4)});
+    $colors: map.set($colors, $themeName, #{$colorName}-very-light, #{lighten($colorValue, 20%)});
+    $colors: map.set($colors, $themeName, #{$colorName}-light, #{lighten($colorValue, 10%)});
+    $colors: map.set($colors, $themeName, #{$colorName}-off, #{lighten($colorValue, 5%)});
+    $colors: map.set($colors, $themeName, #{$colorName}-dark, #{darken($colorValue, 10%)});
+    $colors: map.set($colors, $themeName, #{$colorName}-very-dark, #{darken($colorValue, 20%)});
+  }
+}
+
+$zIndexLow1: -3003;
+$zIndexLow2: -3002;
+$zIndexLow3: -3001;
+
+$zIndexHigh1: 3000;
+$zIndexHigh2: 3001;
+$zIndexHigh3: 3002;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+$primary-font: 'Raleway', sans-serif;
+$primary-font-weight: 600;
+$secondary-font: 'Raleway', sans-serif;
+$secondary-font-weight: 500;
+
+$lighting-quick-change: 0.03s;
+$super-quick-change: 0.1s;
+$quick-change: 0.2s;
+$gradual-change: 1s;
+
+// Currently matches up with bootstrap values with ease:
+$small-screen-width: 576px;
+$medium-screen-width: 768px;
+$large-screen-width: 992px;

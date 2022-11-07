@@ -1,0 +1,7 @@
+@use "variables";
+
+// Replacing the primary color:
+$primary: map-get(map-get(variables.$colors, light-theme), color-primary);
+
+// Import Bootstrap and its default variables
+@import "bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,7 @@
+@use "scss_global/variables";
+
+// Using the div. to increase specificity to override bootstrap default .spinner-border class
+div.spinner {
+  color: var(--color-primary);
+  display: block; // Using block rather than inline-block seems to sort the centering and padding issues
+}

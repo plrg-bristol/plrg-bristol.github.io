@@ -1,0 +1,32 @@
+@use "../variables";
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-transparent);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary);
+}
+
+// Make even darker on click:
+::-webkit-scrollbar-thumb:active {
+  background-color: var(--color-primary-dark);
+}
+
+::-webkit-scrollbar-corner {
+  // Prevents white box in corner when both x and y scrollbar needed (sets background to normal background color)
+  background-color: transparent;
+}

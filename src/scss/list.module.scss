@@ -1,0 +1,36 @@
+@use "scss_global/variables";
+@use "scss_global/mixins";
+@use "scss_global/funcs";
+
+.list {
+  .listItem {
+    background-color: inherit;
+    color: inherit;
+    padding: 0;
+    border: none;
+
+    &.alternatingColors {
+      &:nth-child(even) {
+        background-color: var(--color-base-off);
+      }
+
+      &:nth-child(odd) {
+        background-color: var(--color-base-dark);
+      }
+    }
+
+
+    // Moving the default padding from the li to the children comp (as children would be inside the button if there was one)
+    .children {
+      padding: 0.5rem 1rem;
+    }
+
+    &.active {
+      background-color: var(--color-primary-transparent);
+    }
+
+    &:not(.active) .listButton:hover {
+      background-color: var(--color-primary-transparent-light);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.verticalThirdLowerContainer {
+    display: flex;
+    flex-direction: column;
+
+    // Add pseudocomps before and after to create a third of the container space beforehand (if available)
+    &::before {
+        content: '';
+        flex: 1;
+    }
+    &::after {
+        content: '';
+        flex: 3;
+    }
+}

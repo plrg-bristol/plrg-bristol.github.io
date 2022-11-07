@@ -1,0 +1,24 @@
+@use "scss_global/mixins";
+@use "scss_global/variables";
+
+.pretty {
+    border-radius: 8px;
+    box-shadow: 0 0 8px #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    &.linkImage {
+        @include mixins.animateChange(variables.$quick-change, transform);
+        // On hover make a little larger if it's a link:
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+
+.transitionFilter {
+    @include mixins.animateChange($attributes: filter);
+}

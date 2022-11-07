@@ -1,0 +1,150 @@
+@use "variables";
+@use "mixins";
+
+.primary-font {
+  font-family: variables.$primary-font;
+  font-weight: variables.$primary-font-weight;
+}
+.secondary-font {
+  font-family: variables.$secondary-font;
+  font-weight: variables.$secondary-font-weight;
+}
+
+// Colors: 
+// NOTE: loops through light-theme to get names and vars, make sure to always have the same color keys in both
+@each $colorName, $colorValue in map-get(variables.$colors, "light-theme") {
+  // Setting color settings as e.g. .color-primary
+  .#{$colorName} {
+    color: var(--#{$colorName});
+  }
+  // Setting background color settings as e.g. .background-color-primary
+  .background-#{$colorName} {
+    background-color: var(--#{$colorName});
+  }  
+}
+
+
+.light-theme {
+  @include mixins.animateChange(variables.$quick-change, (background-color, color, fill));
+  // Create the color variables for the theme:
+  @include mixins.buildThemeColorVars("light-theme");
+}
+
+// Default body styling to inherit from:
+body {
+  background-color: var(--color-base);
+  color: var(--color-text);
+  fill: var(--color-text);
+}
+
+// Styling:
+button.no-styling {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+a.no-styling {
+  text-decoration: none;
+}
+
+a.small-text-link,
+button.small-text-link {
+  @extend .no-styling;
+
+  color: var(--color-primary);
+  margin-bottom: 0.3rem;
+  font-family: variables.$primary-font;
+  font-weight: variables.$primary-font-weight;
+
+  &:not(:disabled) {
+    @include mixins.animateUnderlineReverse(var(--color-secondary));
+    // For the animate scale on click:
+    @include mixins.animateChange(variables.$lighting-quick-change, transform);
+
+    &:hover {
+      @include mixins.animateUnderlineReverse(var(--color-primary));
+      color: var(--color-secondary);
+    }
+
+    &:active {
+      transform: scale(1.03);
+    }
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.5;
+  }
+}
+
+hr {
+  color: var(--color-primary);
+  font-family: variables.$primary-font;
+  font-weight: variables.$primary-font-weight;
+  border-top: solid var(--color-primary);
+  border-bottom: solid var(--color-primary);
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+body {
+  font-family: variables.$secondary-font;
+  font-weight: variables.$secondary-font-weight;
+  // Hide scrolling sideways at the top level, seems to keep happening when there is even the tiniest bit that goes off the page:
+  overflow-x: hidden !important;
+  // Tells the scrollbar to overlay the content rather than push it sideways at the top level
+  overflow-y:overlay
+}
+
+a,
+p.lead,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.alert,
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: variables.$primary-font;
+  font-weight: variables.$primary-font-weight;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden-keep-space {
+  visibility: hidden;
+}
+
+// Misc Fixes:
+// To remove the standard blue ring styling on e.g. safari:
+// May need to at some point add back in a nice styled way to help with accessibility.
+// https://stackoverflow.com/questions/1457849/how-to-remove-the-border-highlight-on-an-input-text-element
+:focus {
+  outline: none;
+}
+
+ul.text-center {
+  display: inline-block;
+}
+
+// Things that are top layer children of the row class:
+.row > * {
+  margin-bottom: 10px;
+}
+
+.row.equal-height {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+  }
+}
