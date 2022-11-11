@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <div className="background-color-base-light pt-2  ">
       <div className="text-center w-100">
-        <p className="lead mb-1 text-center">Programming Languages</p>
         <div className="row m-2 justify-content-around">
           {FOOTER_LOGOS.map((link, index) => (
             <div key={index} className="col-4 col-md">

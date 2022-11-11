@@ -3,10 +3,11 @@ import ListComponent from "../components/generics/listComponent";
 import HorizontalComponent from "../components/generics/horizontalComponent";
 
 const addressLines = [
-  "Bristol Programming Languages Unit",
+  "Programming Languages Research Group",
   "Merchant Venturers Building",
   "Woodland Road",
-  "BS8 1UB, Bristol",
+  "BS8 1UB",
+  "Bristol",
   "United Kingdom",
 ];
 
@@ -18,10 +19,9 @@ export const createLocation = () => {
         <div>
           <h2 className="mb-4">Location</h2>
           <p>
-            We are based in the beautiful Clifton campus as part of the School
-            of Computer Science, Electrical and Electronic Engineering, and
-            Engineering Maths (SCEEM), Faculty of Engineering, University of
-            Bristol.
+            We are a research group in the School of Computer Science,
+            Electrical and Electronic Engineering, and Engineering Maths (SCEEM),
+            which is part of the Faculty of Engineering.
           </p>
           <div className="primary-font">
             <ListComponent

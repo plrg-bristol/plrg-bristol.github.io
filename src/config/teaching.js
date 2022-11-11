@@ -20,8 +20,8 @@ const courses = [
     code: "COMSM0067",
     name: <>Advanced Topics in Programming Languages</>,
     description: (
-      <a href="https://bristolpl.github.io/APL-2021-Unit-Website/">
-        Unit website (2021/22)
+      <a href="https://bristolpl.github.io/ATiPL/">
+        Unit website (2022/23)
       </a>
     ),
   },
