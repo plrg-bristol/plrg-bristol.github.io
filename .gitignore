@@ -1,6 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 package-lock.json
 
+# Auto generated files on build and deploy:
+public/sitemap.xml
+public/robots.txt
+
 # dependencies
 /node_modules
 /.pnp
