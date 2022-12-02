@@ -57,12 +57,14 @@ const PAGES = {
                     </p>
                     <p className="mb-0">Our research interests include:</p>
                   </div>,
-                  "&#8226; Semantics of programming languages",
                   "&#8226; Functional programming",
-                  "&#8226; Program analysis",
+                  "&#8226; Semantics of programming languages",
                   "&#8226; Verification",
+                  "&#8226; Program analysis",
+                  "&#8226; Program synthesis",
                   "&#8226; Type theory",
-                  "&#8226; Security, cryptography, and programming languages",
+                  "&#8226; Software testing",
+                  "&#8226; Security and cryptography",
                 ]}
               />
             </div>,
