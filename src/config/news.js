@@ -6,8 +6,16 @@ import HorizontalComponent from "../components/generics/horizontalComponent";
 
 const news = [
   [
-    "June 2022",
-    "Two papers from the group are accepted at ICFP and FSE. They represent our new venture into probabilistic programming languages and program analysis through machine learning.",
+    "November 2022",
+    "Cristina David is awarded funding for a 3 year PostDoc by the Royal Society. We will start recuriting soon."
+  ],
+  [
+    "October 2022",
+    "Steven Ramsay is one of the winners of the 2022 WhatsApp Privacy Aware Program Analysis for the proposal Scalable, static taint analysis for Core Erlang"
+  ],
+  [
+    "October 2022",
+    "Paper from the group accepted at POPL 2023"
   ],
   [
     "June 2022",
