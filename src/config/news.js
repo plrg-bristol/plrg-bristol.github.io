@@ -6,8 +6,12 @@ import HorizontalComponent from "../components/generics/horizontalComponent";
 
 const news = [
   [
+    "19 Jan 2022",
+    "Minh Nguyen presented his PhD work to data scientists at The Alan Turing Institute."
+  ],
+  [
     "November 2022",
-    "Cristina David is awarded funding for a 3 year PostDoc by the Royal Society. We will start recuriting soon."
+    "Cristina David has won funding for a 3 year PostDoc from the Royal Society. We will start recruiting soon."
   ],
   [
     "October 2022",
