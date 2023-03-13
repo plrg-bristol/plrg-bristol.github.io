@@ -32,24 +32,27 @@ const faculty = [
   },
 ];
 
-const postdocs = [
-  {
-    name: "Jerome Jochems",
-    src: "images/people/jerome.jpg",
-  },
-  {
-    name: "Weixin Zhang",
-    src: "images/people/weixin.jpg",
-    link: "https://wxzh.github.io/",
-  },
-];
-
-const students = [
+const researchAssociates = [
   {
     name: "Sam Frohlich",
     src: "images/people/sam.jpg",
     link: "https://samfrohlich.github.io/",
   },
+  {
+    name: "Joe Bond",
+    src: "images/people/joe.png",
+    link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
+  },
+];
+
+const doctoralTeachingAssociates = [
+  {
+    name: "Jess Foster",
+    src: "images/people/jess.jpg",
+  },
+];
+
+const students = [
   {
     name: "Minh Nguyen",
     src: "images/people/minh.png",
@@ -61,11 +64,6 @@ const students = [
     link: "https://ec-jones.github.io/",
   },
   {
-    name: "Joe Bond",
-    src: "images/people/joe.png",
-    link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
-  },
-  {
     name: "Hanliang Zhang",
     src: NO_IMG_SRC,
   },
@@ -74,18 +72,17 @@ const students = [
     src: NO_IMG_SRC,
     link: "https://research-information.bris.ac.uk/en/persons/yoav-alon",
   },
+  {
+    name: "Celia Li",
+    src: NO_IMG_SRC,
+  },
 ];
 
-const affiliatedMembers = [
+const researchFellows = [
   {
-    name: "Roly Perera (ATI)",
+    name: "Roly Perera",
     src: "images/people/roly.png",
     link: "http://dynamicaspects.org/research/",
-  },
-  {
-    name: "Sanjay Rawat (TII, Hononary Lecturer)",
-    src: "images/people/sanjay.jpg",
-    link: "https://uk.linkedin.com/in/sanjayr4security",
   },
 ];
 
@@ -96,9 +93,10 @@ export function createPeople({ isOnHomePage = false } = {}) {
   } else {
     sections = [
       [faculty, "Faculty"],
-      [postdocs, "Postdocs"],
-      [students, "Students"],
-      [affiliatedMembers, "Affiliated Members"],
+      [researchFellows, "Research Fellows"],
+      [researchAssociates, "Research Associates"],
+      [doctoralTeachingAssociates, "Doctoral Teaching Associates"],
+      [students, "PhD Students"],
     ];
   }
 
