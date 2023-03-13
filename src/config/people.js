@@ -43,6 +43,10 @@ const researchAssociates = [
     src: "images/people/joe.png",
     link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
   },
+  {
+    name: "Jerome Jochems",
+    src: "images/people/jerome.jpg",
+  },
 ];
 
 const doctoralTeachingAssociates = [
@@ -74,6 +78,14 @@ const students = [
   },
   {
     name: "Celia Li",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Cameron Low",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Charlie Walpole",
     src: NO_IMG_SRC,
   },
 ];
