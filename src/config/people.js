@@ -121,6 +121,19 @@ const researchAssistants = [
   },
 ];
 
+const pastMembers = [
+  {
+    name: "Weixin Zhang",
+    src: "images/people/weixin.jpg",
+    link: "https://wxzh.github.io/",
+  },
+  {
+    name: "Sanjay Rawat (TII, Hononary Lecturer)",
+    src: "images/people/sanjay.jpg",
+    link: "https://uk.linkedin.com/in/sanjayr4security",
+  },
+]
+
 export function createPeople({ isOnHomePage = false } = {}) {
   let sections = [];
   if (isOnHomePage) {
@@ -133,6 +146,7 @@ export function createPeople({ isOnHomePage = false } = {}) {
       [doctoralTeachingAssociates, "Doctoral Teaching Associates"],
       [students, "PhD Students"],
       [researchAssistants, "Research Assistants"],
+      [pastMembers, "Past Members"],
     ];
   }
 
