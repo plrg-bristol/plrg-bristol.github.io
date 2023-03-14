@@ -44,6 +44,10 @@ const researchAssociates = [
     link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
   },
   {
+    name: "Cameron Low",
+    src: NO_IMG_SRC,
+  },
+  {
     name: "Jerome Jochems",
     src: "images/people/jerome.jpg",
   },
@@ -81,10 +85,6 @@ const students = [
     src: NO_IMG_SRC,
   },
   {
-    name: "Cameron Low",
-    src: NO_IMG_SRC,
-  },
-  {
     name: "Charlie Walpole",
     src: NO_IMG_SRC,
   },
@@ -95,6 +95,29 @@ const researchFellows = [
     name: "Roly Perera",
     src: "images/people/roly.png",
     link: "http://dynamicaspects.org/research/",
+  },
+];
+
+const researchAssistants = [
+  {
+    name: "Rose Hudson",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Natasha England-Elbro",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Oli Newcombe",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Shuyin Ouyang",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Piotr Kozicki",
+    src: NO_IMG_SRC,
   },
 ];
 
@@ -109,6 +132,7 @@ export function createPeople({ isOnHomePage = false } = {}) {
       [researchAssociates, "Research Associates"],
       [doctoralTeachingAssociates, "Doctoral Teaching Associates"],
       [students, "PhD Students"],
+      [researchAssistants, "Research Assistants"],
     ];
   }
 
