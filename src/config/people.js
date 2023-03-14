@@ -127,11 +127,6 @@ const pastMembers = [
     src: "images/people/weixin.jpg",
     link: "https://wxzh.github.io/",
   },
-  {
-    name: "Sanjay Rawat (TII, Hononary Lecturer)",
-    src: "images/people/sanjay.jpg",
-    link: "https://uk.linkedin.com/in/sanjayr4security",
-  },
 ]
 
 export function createPeople({ isOnHomePage = false } = {}) {
