@@ -3,8 +3,27 @@ import React from "react";
 import VideoComponent from "../components/generics/videoComponent";
 import ListComponent from "../components/generics/listComponent";
 import HorizontalComponent from "../components/generics/horizontalComponent";
+import ImageComponent from "../components/generics/imageComponent";
+
 
 const news = [
+  [
+    "21 Feb 2022",
+    <div>
+      <div
+        className="d-flex justify-content-center align-items-center"
+      >
+        <ImageComponent
+          alt={"Sam (left) and Cristina (right) in front of Redmaids' High School"}
+          src={"images/news/sam-cristina-redmaids.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+      Sam Frohlich and Cristina David went to Redmaids' High School to give an assembly and run a workshop about functional programming and fractals using CodeWorld.
+      </p>
+    </div>
+  ],
   [
     "19 Jan 2022",
     "Minh Nguyen presented his PhD work to data scientists at The Alan Turing Institute."
