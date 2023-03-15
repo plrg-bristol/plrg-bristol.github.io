@@ -8,7 +8,13 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
-    "21 Feb 2022",
+    "March 2023",
+    <div>
+      We are recruiting a (senior) research associate in the area of programming languages and machine learning: <a href="https://www.bristol.ac.uk/jobs/find/details/?jobId=305015" target="_blank" rel="noreferrer">Apply here</a> by 19 March
+    </div>
+  ],
+  [
+    "21 Feb 2023",
     <div>
       <div
         className="d-flex justify-content-center align-items-center"
@@ -25,7 +31,7 @@ const news = [
     </div>
   ],
   [
-    "19 Jan 2022",
+    "19 Jan 2023",
     "Minh Nguyen presented his PhD work to data scientists at The Alan Turing Institute."
   ],
   [

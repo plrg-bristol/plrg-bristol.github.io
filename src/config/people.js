@@ -47,10 +47,6 @@ const researchAssociates = [
     name: "Cameron Low",
     src: NO_IMG_SRC,
   },
-  {
-    name: "Jerome Jochems",
-    src: "images/people/jerome.jpg",
-  },
 ];
 
 const doctoralTeachingAssociates = [
@@ -126,6 +122,10 @@ const pastMembers = [
     name: "Weixin Zhang",
     src: "images/people/weixin.jpg",
     link: "https://wxzh.github.io/",
+  },
+  {
+    name: "Jerome Jochems",
+    src: "images/people/jerome.jpg",
   },
 ]
 
