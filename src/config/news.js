@@ -10,6 +10,29 @@ const news = [
   [
     "March 2023",
     <div>
+      Kazutaka Matsuda of Tohoku University visited us to present a talk on composable Elm-like Model-View-Update applications and collaborate on further "Embedding by Unembedding" research with Sam Frohlich, Jess Foster, and Meng Wang.
+    </div>
+  ],
+  [
+    "17th March 2023",
+    <div>
+      <div
+        className="d-flex justify-content-center align-items-center"
+      >
+        <ImageComponent
+          alt={"Sam selfie in Sweden"}
+          src={"images/news/sam-sweden-mar-2023.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        Sam presented her recent ICFP submission "Reflective Generators", which is joint work with Harry Goldstein and Benjamin C. Pierce from the University of Pennsylvania, at Chalmers University of Technology in Sweden, as part of her week long visit. (<a href="https://harrisongoldste.in/papers/drafts/icfp-2023-reflective.pdf" target="_blank" rel="noreferrer">Preprint</a>; <a href="https://docs.google.com/presentation/d/1172giR-MPnYMlZPJomf_UedY15_2gEFSOGQjsRl1DSU/edit?usp=sharing" target="_blank" rel="noreferrer">Slides</a>)
+      </p>
+    </div>
+  ],
+  [
+    "March 2023",
+    <div>
       We are recruiting a (senior) research associate in the area of programming languages and machine learning: <a href="https://www.bristol.ac.uk/jobs/find/details/?jobId=305015" target="_blank" rel="noreferrer">Apply here</a> by 19 March
     </div>
   ],
