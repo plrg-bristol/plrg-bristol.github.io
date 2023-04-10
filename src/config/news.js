@@ -8,6 +8,12 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "2-6 April 2023",
+    <div>
+      Jess Foster and Celia Li attended <a href="https://www.cs.bham.ac.uk/~mhe/events/MGS23/" target="_blank" rel="noreferrer">Midlands Graduate School 2023</a> at the University of Birmingham.
+    </div>
+  ],
+  [
     "March 2023",
     <div>
       Kazutaka Matsuda of Tohoku University visited us to present a talk on composable Elm-like Model-View-Update applications and collaborate on further "Embedding by Unembedding" research with Sam Frohlich, Jess Foster, and Meng Wang.
