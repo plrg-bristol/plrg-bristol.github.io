@@ -8,6 +8,14 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "May 2023",
+    "Two papers from the group ('Embedding by Unembedding' and 'Reflecting on Random Generation') accepted at ICFP23."
+  ],
+  [
+    "April 2023",
+    "Paper from the group ('Ownership guided C to Rust translation') accepted at CAV23."
+  ],
+  [
     "2-6 April 2023",
     <div>
       Jess Foster and Celia Li attended <a href="https://www.cs.bham.ac.uk/~mhe/events/MGS23/" target="_blank" rel="noreferrer">Midlands Graduate School 2023</a> at the University of Birmingham.
