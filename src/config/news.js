@@ -5,8 +5,15 @@ import ListComponent from "../components/generics/listComponent";
 import HorizontalComponent from "../components/generics/horizontalComponent";
 import ImageComponent from "../components/generics/imageComponent";
 
-
 const news = [
+  [
+    "June 2023",
+    "Minh Nguyen is awarded EPSRC Doctoral Prize Fellowship for the proposal Robust, Reusable Computational Models via Typed Functional Programming."
+  ],
+  [
+    "June 2023",
+    "Steven Ramsay will serve on the POPL 2024 program committee."
+  ],
   [
     "May 2023",
     "Two papers from the group ('Embedding by Unembedding' and 'Reflecting on Random Generation') accepted at ICFP23."
