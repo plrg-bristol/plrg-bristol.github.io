@@ -7,6 +7,12 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "June-July 2023",
+    <div>
+      We are <a href="https://www.bristol.ac.uk/jobs/find/details/?jobId=316176&jobTitle=Lecturer%20in%20Programming%20Languages%20and%20Compilers" target="_blank" rel="noreferrer">recruiting a lecturer in programming languages</a>. Please get in touch with Meng Wang (meng.wang@bristol.ac.uk) for enquires.
+    </div>
+  ],
+  [
     "June 2023",
     "Minh Nguyen is awarded EPSRC Doctoral Prize Fellowship for the proposal Robust, Reusable Computational Models via Typed Functional Programming."
   ],
