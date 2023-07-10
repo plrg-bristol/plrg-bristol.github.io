@@ -7,6 +7,20 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "July 2023",
+    "Paper from the group (Contract Lenses: Reasoning about Bidirectional Programs via Calculation) accepted by JFP."
+  ],
+  [
+    "July 2023",
+    "Paper from the group (Effect Handlers for Programmable Inference) accepted at Haskell23."
+  ],
+  [
+    "July 2023",
+    <div>
+      We now have a twitter! Give us a follow: <a href="https://twitter.com/PLRG_bristol" target="_blank" rel="noreferrer">@PLRG_bristol</a>
+    </div>
+  ],
+  [
     "June-July 2023",
     <div>
       We are <a href="https://www.bristol.ac.uk/jobs/find/details/?jobId=316176&jobTitle=Lecturer%20in%20Programming%20Languages%20and%20Compilers" target="_blank" rel="noreferrer">recruiting a lecturer in programming languages</a>. Please get in touch with Meng Wang (meng.wang@bristol.ac.uk) for enquires.
