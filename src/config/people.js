@@ -18,12 +18,12 @@ const faculty = [
   {
     name: "Steven Ramsay",
     src: "images/people/steven.jpg",
-    link: "https://stersay.github.io/",
+    link: "https://sjrsay.github.io/",
   },
   {
     name: "Cristina David",
     src: "images/people/cristina.jpg",
-    link: "https://research-information.bris.ac.uk/en/persons/cristina-david",
+    link: "https://cristina-david.github.io/",
   },
   {
     name: "Alex Kavvos",
