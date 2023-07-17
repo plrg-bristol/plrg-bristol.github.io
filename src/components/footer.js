@@ -41,7 +41,7 @@ const Footer = () => {
           <a rel="noreferrer" target="_blank" href="https://www.ncsc.gov.uk/">
             NCSC
           </a>
-          , and various industry partners for which we are grateful.
+          , and various industry partners.
         </p>
         <div className="pb-1">
           {/* Using h5 to make icons bigger */}

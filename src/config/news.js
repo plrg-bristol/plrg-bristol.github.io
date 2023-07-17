@@ -8,11 +8,11 @@ import ImageComponent from "../components/generics/imageComponent";
 const news = [
   [
     "July 2023",
-    "Paper from the group (Contract Lenses: Reasoning about Bidirectional Programs via Calculation) accepted by JFP."
+    "<b>Contract Lenses: Reasoning about Bidirectional Programs via Calculation</b> was accepted to Journal of Functional Programming."
   ],
   [
     "July 2023",
-    "Paper from the group (Effect Handlers for Programmable Inference) accepted at Haskell23."
+    "<b>Effect Handlers for Programmable Inference</b> accepted to Haskell Symposium 2023."
   ],
   [
     "July 2023",
@@ -23,12 +23,12 @@ const news = [
   [
     "June-July 2023",
     <div>
-      We are <a href="https://www.bristol.ac.uk/jobs/find/details/?jobId=316176&jobTitle=Lecturer%20in%20Programming%20Languages%20and%20Compilers" target="_blank" rel="noreferrer">recruiting a lecturer in programming languages</a>. Please get in touch with Meng Wang (meng.wang@bristol.ac.uk) for enquires.
+      We are <a href="https://www.bristol.ac.uk/jobs/find/details/?jobId=316176&jobTitle=Lecturer%20in%20Programming%20Languages%20and%20Compilers" target="_blank" rel="noreferrer">recruiting a lecturer in programming languages</a>. Please get in touch with Meng Wang (meng.wang@bristol.ac.uk) with enquires.
     </div>
   ],
   [
     "June 2023",
-    "Minh Nguyen is awarded EPSRC Doctoral Prize Fellowship for the proposal Robust, Reusable Computational Models via Typed Functional Programming."
+    "Minh Nguyen was awarded a EPSRC Doctoral Prize Fellowship for the proposal Robust, Reusable Computational Models via Typed Functional Programming."
   ],
   [
     "June 2023",
@@ -36,11 +36,11 @@ const news = [
   ],
   [
     "May 2023",
-    "Two papers from the group ('Embedding by Unembedding' and 'Reflecting on Random Generation') accepted at ICFP23."
+    "<b>Embedding by Unembedding</b> and <b>Reflecting on Random Generation</b> accepted to ICFP 2023."
   ],
   [
     "April 2023",
-    "Paper from the group ('Ownership guided C to Rust translation') accepted at CAV23."
+    "<b>Ownership guided C to Rust translation</b> accepted to CAV 2023."
   ],
   [
     "2-6 April 2023",

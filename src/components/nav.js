@@ -8,7 +8,7 @@ import Image from "./images/image";
 import NavLink from "./navLink";
 
 import PAGES from "../config/pages";
-import { LOGO_SRC } from "../config/variables";
+import { LOGO_ACRONYM_ONLY_SRC } from "../config/variables";
 
 import styles from "../scss/nav.module.scss";
 
@@ -37,7 +37,7 @@ const NavBar = () => {
           <Image
             alt="Home"
             className={styles["image-link"]}
-            src={LOGO_SRC}
+            src={LOGO_ACRONYM_ONLY_SRC}
             height="60px"
             pretty
             style={{ padding: 0, margin: 0 }}
