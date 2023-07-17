@@ -1,15 +1,5 @@
 import React from "react";
-import ListComponent from "../components/generics/listComponent";
 import HorizontalComponent from "../components/generics/horizontalComponent";
-
-const addressLines = [
-  "Programming Languages Research Group",
-  "Merchant Venturers Building",
-  "Woodland Road",
-  "BS8 1UB",
-  "Bristol",
-  "United Kingdom",
-];
 
 export const createLocation = () => {
   return [
@@ -24,10 +14,14 @@ export const createLocation = () => {
             which is part of the Faculty of Engineering.
           </p>
           <div className="primary-font">
-            <ListComponent
-              alternatingColors={false}
-              components={addressLines}
-            />
+            <p>
+               Programming Languages Research Group<br></br>
+               Merchant Venturers Building<br></br>
+               Woodland Road<br></br>
+               BS8 1UB<br></br>
+               Bristol<br></br>
+               United Kingdom<br></br>
+            </p>
           </div>
         </div>,
         <iframe
