@@ -23,7 +23,7 @@ After running the command, you should be able to monitor deployment progress in 
 # Updating the site
 Use a code editor such as [VS Code](https://code.visualstudio.com/) to make changes. We recommend installing the `Prettier` and `ESLint` VS code plugins.
 
-All relevant code is located in the `config/` directory. Each page is declared in the `config/pages.js` using a `PageComponent` which is passed a list of components to render on the page. Components can be strings, JSX, or any valid React component.
+All relevant code is located in the `src/config/` directory. Each page is declared in `src/config/pages.js` using a `PageComponent` which is passed a list of components to render on the page. Components can be strings, JSX, or any valid React component.
 
 # Files & Images
 Content should be placed in the `public/` folder, e.g. `public/images/logo.png`.
