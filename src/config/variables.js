@@ -2,6 +2,7 @@ import React from "react";
 
 export const NO_IMG_SRC = "images/no_img.png";
 export const LOGO_SRC = "images/logo.jpg";
+export const LOGO_ACRONYM_ONLY_SRC = "images/logo-acronym-only.jpg";
 export const CONTACT_EMAIL = "pl-rg@bristol.ac.uk";
 // Using nulls below to help with spacing:
 export const FOOTER_LOGOS = [
