@@ -3,6 +3,7 @@ import React from "react";
 export const NO_IMG_SRC = "images/no_img.png";
 export const LOGO_SRC = "images/logo.jpg";
 export const LOGO_ACRONYM_ONLY_SRC = "images/logo-acronym-only.png";
+export const LOGO_ACRONYM_ONLY_TRANS_SRC = "images/logo-acronym-only-trans.png";
 export const CONTACT_EMAIL = "pl-rg@bristol.ac.uk";
 // Using nulls below to help with spacing:
 export const FOOTER_LOGOS = [
@@ -13,7 +14,7 @@ export const FOOTER_LOGOS = [
     link: "https://www.bristol.ac.uk/",
   },
   {
-    src: LOGO_ACRONYM_ONLY_SRC,
+    src: LOGO_ACRONYM_ONLY_TRANS_SRC,
     alt: "Home",
     link: "/",
   },
