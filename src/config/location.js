@@ -10,7 +10,6 @@ export const createLocation = () => {
           <h2 className="mb-4">Location</h2>
           <p>
             We are a research group in the School of Computer Science,
-            Electrical and Electronic Engineering, and Engineering Maths (SCEEM),
             which is part of the Faculty of Engineering.
           </p>
           <div className="primary-font">
