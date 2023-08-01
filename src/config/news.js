@@ -8,58 +8,80 @@ import ImageComponent from "../components/generics/imageComponent";
 const news = [
   [
     "July 2023",
-    "<b>Contract Lenses: Reasoning about Bidirectional Programs via Calculation</b> was accepted to Journal of Functional Programming."
+    "<b>Contract Lenses: Reasoning about Bidirectional Programs via Calculation</b> was accepted to Journal of Functional Programming.",
   ],
   [
     "July 2023",
-    "<b>Effect Handlers for Programmable Inference</b> accepted to Haskell Symposium 2023."
+    "<b>Effect Handlers for Programmable Inference</b> accepted to Haskell Symposium 2023.",
   ],
   [
     "July 2023",
     <div>
-      We now have a twitter! Give us a follow: <a href="https://twitter.com/PLRG_bristol" target="_blank" rel="noreferrer">@PLRG_bristol</a>
-    </div>
+      We now have a twitter! Give us a follow:{" "}
+      <a
+        href="https://twitter.com/PLRG_bristol"
+        target="_blank"
+        rel="noreferrer"
+      >
+        @PLRG_bristol
+      </a>
+    </div>,
   ],
   [
     "June-July 2023",
     <div>
-      We are <a href="https://www.bristol.ac.uk/jobs/find/details/?jobId=316176&jobTitle=Lecturer%20in%20Programming%20Languages%20and%20Compilers" target="_blank" rel="noreferrer">recruiting a lecturer in programming languages</a>. Please get in touch with Meng Wang (meng.wang@bristol.ac.uk) with enquires.
-    </div>
+      We are{" "}
+      <a
+        href="https://www.bristol.ac.uk/jobs/find/details/?jobId=316176&jobTitle=Lecturer%20in%20Programming%20Languages%20and%20Compilers"
+        target="_blank"
+        rel="noreferrer"
+      >
+        recruiting a lecturer in programming languages
+      </a>
+      . Please get in touch with Meng Wang (meng.wang@bristol.ac.uk) with
+      enquires.
+    </div>,
   ],
   [
     "June 2023",
-    "Minh Nguyen was awarded a EPSRC Doctoral Prize Fellowship for the proposal Robust, Reusable Computational Models via Typed Functional Programming."
+    "Minh Nguyen was awarded a EPSRC Doctoral Prize Fellowship for the proposal Robust, Reusable Computational Models via Typed Functional Programming.",
   ],
-  [
-    "June 2023",
-    "Steven Ramsay will serve on the POPL 2024 program committee."
-  ],
+  ["June 2023", "Steven Ramsay will serve on the POPL 2024 program committee."],
   [
     "May 2023",
-    "<b>Embedding by Unembedding</b> and <b>Reflecting on Random Generation</b> accepted to ICFP 2023."
+    "<b>Embedding by Unembedding</b> and <b>Reflecting on Random Generation</b> accepted to ICFP 2023.",
   ],
   [
     "April 2023",
-    "<b>Ownership guided C to Rust translation</b> accepted to CAV 2023."
+    "<b>Ownership guided C to Rust translation</b> accepted to CAV 2023.",
   ],
   [
     "2-6 April 2023",
     <div>
-      Jess Foster and Celia Li attended <a href="https://www.cs.bham.ac.uk/~mhe/events/MGS23/" target="_blank" rel="noreferrer">Midlands Graduate School 2023</a> at the University of Birmingham.
-    </div>
+      Jess Foster and Celia Li attended{" "}
+      <a
+        href="https://www.cs.bham.ac.uk/~mhe/events/MGS23/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Midlands Graduate School 2023
+      </a>{" "}
+      at the University of Birmingham.
+    </div>,
   ],
   [
     "March 2023",
     <div>
-      Kazutaka Matsuda of Tohoku University visited us to present a talk on composable Elm-like Model-View-Update applications and collaborate on further "Embedding by Unembedding" research with Sam Frohlich, Jess Foster, and Meng Wang.
-    </div>
+      Kazutaka Matsuda of Tohoku University visited us to present a talk on
+      composable Elm-like Model-View-Update applications and collaborate on
+      further "Embedding by Unembedding" research with Sam Frohlich, Jess
+      Foster, and Meng Wang.
+    </div>,
   ],
   [
     "17th March 2023",
     <div>
-      <div
-        className="d-flex justify-content-center align-items-center"
-      >
+      <div className="d-flex justify-content-center align-items-center">
         <ImageComponent
           alt={"Sam selfie in Sweden"}
           src={"images/news/sam-sweden-mar-2023.jpg"}
@@ -67,49 +89,76 @@ const news = [
         />
       </div>
       <p>
-        Sam presented her recent ICFP submission "Reflective Generators", which is joint work with Harry Goldstein and Benjamin C. Pierce from the University of Pennsylvania, at Chalmers University of Technology in Sweden, as part of her week long visit. (<a href="https://harrisongoldste.in/papers/drafts/icfp-2023-reflective.pdf" target="_blank" rel="noreferrer">Preprint</a>; <a href="https://docs.google.com/presentation/d/1172giR-MPnYMlZPJomf_UedY15_2gEFSOGQjsRl1DSU/edit?usp=sharing" target="_blank" rel="noreferrer">Slides</a>)
+        Sam presented her recent ICFP submission "Reflective Generators", which
+        is joint work with Harry Goldstein and Benjamin C. Pierce from the
+        University of Pennsylvania, at Chalmers University of Technology in
+        Sweden, as part of her week long visit. (
+        <a
+          href="https://harrisongoldste.in/papers/drafts/icfp-2023-reflective.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Preprint
+        </a>
+        ;{" "}
+        <a
+          href="https://docs.google.com/presentation/d/1172giR-MPnYMlZPJomf_UedY15_2gEFSOGQjsRl1DSU/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Slides
+        </a>
+        )
       </p>
-    </div>
+    </div>,
   ],
   [
     "March 2023",
     <div>
-      We are recruiting a (senior) research associate in the area of programming languages and machine learning: <a href="https://www.bristol.ac.uk/jobs/find/details/?jobId=305015" target="_blank" rel="noreferrer">Apply here</a> by 19 March
-    </div>
+      We are recruiting a (senior) research associate in the area of programming
+      languages and machine learning:{" "}
+      <a
+        href="https://www.bristol.ac.uk/jobs/find/details/?jobId=305015"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Apply here
+      </a>{" "}
+      by 19 March
+    </div>,
   ],
   [
     "21 Feb 2023",
     <div>
-      <div
-        className="d-flex justify-content-center align-items-center"
-      >
+      <div className="d-flex justify-content-center align-items-center">
         <ImageComponent
-          alt={"Sam (left) and Cristina (right) in front of Redmaids' High School"}
+          alt={
+            "Sam (left) and Cristina (right) in front of Redmaids' High School"
+          }
           src={"images/news/sam-cristina-redmaids.jpg"}
           maxHeight="315px"
         />
       </div>
       <p>
-      Sam Frohlich and Cristina David went to Redmaids' High School to give an assembly and run a workshop about functional programming and fractals using CodeWorld.
+        Sam Frohlich and Cristina David went to Redmaids' High School to give an
+        assembly and run a workshop about functional programming and fractals
+        using CodeWorld.
       </p>
-    </div>
+    </div>,
   ],
   [
     "19 Jan 2023",
-    "Minh Nguyen presented his PhD work to data scientists at The Alan Turing Institute."
+    "Minh Nguyen presented his PhD work to data scientists at The Alan Turing Institute.",
   ],
   [
     "November 2022",
-    "Cristina David has won funding for a 3 year PostDoc from the Royal Society. We will start recruiting soon."
+    "Cristina David has won funding for a 3 year PostDoc from the Royal Society. We will start recruiting soon.",
   ],
   [
     "October 2022",
-    "Steven Ramsay is one of the winners of the 2022 WhatsApp Privacy Aware Program Analysis for the proposal Scalable, static taint analysis for Core Erlang"
+    "Steven Ramsay is one of the winners of the 2022 WhatsApp Privacy Aware Program Analysis for the proposal Scalable, static taint analysis for Core Erlang",
   ],
-  [
-    "October 2022",
-    "Paper from the group accepted at POPL 2023"
-  ],
+  ["October 2022", "Paper from the group accepted at POPL 2023"],
   [
     "June 2022",
     "Two new research posts are open in the group. Please get in touch if you are interested.",

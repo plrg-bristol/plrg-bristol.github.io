@@ -9,7 +9,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[javascript]": {
       "editor.formatOnSave": true,
-      "editor.formatOnPaste": false
+      "editor.formatOnPaste": false,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "window.zoomLevel": 1,
     "editor.tabSize": 2,
