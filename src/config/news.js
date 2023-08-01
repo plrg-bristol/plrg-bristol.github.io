@@ -8,6 +8,10 @@ import ImageComponent from "../components/generics/imageComponent";
 const news = [
   [
     "July 2023",
+    "Alex Kavvos has won EPSRC funding to work on Language Embeddings for Proof Engineering. This project will be completed in collaboration with the University of Maryland, College Park.",
+  ],
+  [
+    "July 2023",
     "<b>Contract Lenses: Reasoning about Bidirectional Programs via Calculation</b> was accepted to Journal of Functional Programming.",
   ],
   [
@@ -144,6 +148,20 @@ const news = [
         assembly and run a workshop about functional programming and fractals
         using CodeWorld.
       </p>
+    </div>,
+  ],
+  [
+    "January 2023",
+    <div>
+      Alex Kavvos served on the{" "}
+      <a
+        href="https://lics.siglog.org/lics23/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LICS 2023
+      </a>{" "}
+      programme committee.
     </div>,
   ],
   [
