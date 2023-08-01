@@ -11,7 +11,7 @@
       "editor.formatOnSave": true,
       "editor.formatOnPaste": false
     },
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 1,
     "editor.tabSize": 2,
     "files.exclude": {
       "build/*": true,
