@@ -7,6 +7,10 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "August 2023",
+    "Paper from the group (Reflecting on Random Generation) received a Distinguished Paper award at ICFP'23!",
+  ],
+  [
     "July 2023",
     "Alex Kavvos has won EPSRC funding to work on Language Embeddings for Proof Engineering. This project will be completed in collaboration with the University of Maryland, College Park.",
   ],
