@@ -7,6 +7,75 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "September 2023",
+    <div>
+      We are organising{" "}
+      <a
+        href="https://plrg-bristol.github.io/fir/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Fun in the Afternoon / S-REPLS 13
+      </a>{" "}
+      at Bristol on 1st November 23. Registration is open and talk proposals are
+      welcome.
+    </div>,
+  ],
+  [
+    "4-9 September 2023",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "A collage of Sam and Minh giving talks at ICFP and enjoying Seattle!"
+          }
+          src={"images/news/ICFP-collage.png"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        Greetings from Seattle, where we had a successful ICFP'23!
+        <ul>
+          <li>
+            Sam and Harry Goldstein presented their "Reflecting on Random
+            Generation" distinguished paper (
+            <a
+              href="https://www.youtube.com/watch?v=ZQ_U-LANbc4&t=1312s"
+              target="_blank"
+              rel="noreferrer"
+            >
+              watch on YouTube
+            </a>
+            )
+          </li>
+          <li>
+            Sam also presented "Embedding by Unembedding" (
+            <a
+              href="https://www.youtube.com/live/ZQ_U-LANbc4?si=q0xS9exCb8c1TbeV&t=12028"
+              target="_blank"
+              rel="noreferrer"
+            >
+              watch on YouTube
+            </a>
+            )
+          </li>
+          <li>
+            Minh presented "Effect Handlers for Programmable Inference" at
+            Haskell Symposium (
+            <a
+              href="https://www.youtube.com/live/c6QAjzunnf8?si=j2alAErgrJz_m-Pt&t=11026"
+              target="_blank"
+              rel="noreferrer"
+            >
+              watch on YouTube
+            </a>
+            )
+          </li>
+        </ul>
+      </p>
+    </div>,
+  ],
+  [
     "August 2023",
     "Paper from the group (Reflecting on Random Generation) received a Distinguished Paper award at ICFP'23!",
   ],

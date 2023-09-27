@@ -1,0 +1,15 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "build/*": true,
+    "**/webpack-stats.json": true,
+    "**/package-lock*": true,
+    "**/dist": true,
+    "**/.*": true
+  }
+}
