@@ -30,6 +30,11 @@ const faculty = [
     src: "images/people/alex.jpg",
     link: "https://www.lambdabetaeta.eu/",
   },
+  {
+    name: "Eddie Jones",
+    src: "images/people/eddie.png",
+    link: "https://ec-jones.github.io/",
+  },
 ];
 
 const researchAssociates = [
@@ -63,11 +68,6 @@ const students = [
     link: "https://min-nguyen.github.io/",
   },
   {
-    name: "Eddie Jones",
-    src: "images/people/eddie.png",
-    link: "https://ec-jones.github.io/",
-  },
-  {
     name: "Hanliang Zhang",
     src: NO_IMG_SRC,
   },
@@ -82,6 +82,10 @@ const students = [
   },
   {
     name: "Charlie Walpole",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "April Tune",
     src: NO_IMG_SRC,
   },
 ];
@@ -127,7 +131,7 @@ const pastMembers = [
     name: "Jerome Jochems",
     src: "images/people/jerome.jpg",
   },
-]
+];
 
 export function createPeople({ isOnHomePage = false } = {}) {
   let sections = [];
@@ -163,7 +167,7 @@ export function createPeople({ isOnHomePage = false } = {}) {
             />
           ))}
         />
-      </div>
+      </div>,
     );
   });
 
