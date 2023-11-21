@@ -7,7 +7,7 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
-    "September 2023",
+    "November 2023",
     <div>
       Paper ({" "}
       <a
