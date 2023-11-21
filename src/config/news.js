@@ -9,16 +9,15 @@ const news = [
   [
     "September 2023",
     <div>
-      We are organising{" "}
+      Paper ({" "}
       <a
-        href="https://plrg-bristol.github.io/fir/"
+        href="https://popl24.sigplan.org/details/POPL-2024-popl-research-papers/69/Ill-Typed-Programs-Don-t-Evaluate"
         target="_blank"
         rel="noreferrer"
       >
-        Fun in the Afternoon / S-REPLS 13
+        Ill-Typed Programs Don't Evaluate
       </a>{" "}
-      at Bristol on 1st November 23. Registration is open and talk proposals are
-      welcome.
+      ) from the group accepted at POPL24.
     </div>,
   ],
   [
