@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "@babel/register": "^7.18.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.9",
     "assert": "^2.0.0",
     "buffer": "^6.0.3",
     "copy-webpack-plugin": "11.0.0",
