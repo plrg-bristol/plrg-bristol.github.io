@@ -20,26 +20,49 @@ const courses = [
     code: "COMSM0067",
     name: <>Advanced Topics in Programming Languages</>,
     description: (
-      <a href="https://plrg-bristol.github.io/ATiPL/">
-        Unit website (2022/23)
+      <a href="https://plrg-bristol.github.io/ATiPL/">Unit website</a>
+    ),
+  },
+  {
+    code: null,
+    name: "Advanced Haskell Seminar Series",
+    description: (
+      <a href="https://github.com/plrg-bristol/advanced-haskell-2024">
+        2024 repo
       </a>
     ),
   },
 ];
 
-export const createTeaching = () => {
-  return courses.map((courseInfo) => (
-    <div>
+const CourseTitle = ({ courseInfo }) => {
+  if (courseInfo.code) {
+    return (
       <h5>
         {courseInfo.code} - {courseInfo.name}
       </h5>
-      <h6>
-        <a
-          href={`https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=${courseInfo.code}`}
-        >
-          University unit page
-        </a>
-      </h6>
+    );
+  } else {
+    return <h5>{courseInfo.name}</h5>;
+  }
+};
+
+const UnitPage = ({ code }) => {
+  return !code ? null : (
+    <h6>
+      <a
+        href={`https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=${code}`}
+      >
+        University unit page
+      </a>
+    </h6>
+  );
+};
+
+export const createTeaching = () => {
+  return courses.map((courseInfo) => (
+    <div>
+      <CourseTitle courseInfo={courseInfo} />
+      <UnitPage code={courseInfo.code} />
       <p>{courseInfo.description}</p>
     </div>
   ));
