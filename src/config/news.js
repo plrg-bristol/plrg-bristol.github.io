@@ -7,6 +7,30 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "February 2024",
+    <div>
+      Jess traveled to Southampton to give a talk on Haskell game development to
+      the student PL society.
+    </div>,
+  ],
+  [
+    "January 2024",
+    <div>
+      Alex Kavvos will be giving an invited talk at the ({" "}
+      <a href="https://bctcs2024.github.io/" target="_blank" rel="noreferrer">
+        British Colloquium for Theoretical Computer Science
+      </a>{" "}
+      ) in April, in Bath.
+    </div>,
+  ],
+  [
+    "January 2024",
+    <div>
+      We all had a great time at POPL'24, with many members of the group giving
+      excellent talks!
+    </div>,
+  ],
+  [
     "November 2023",
     <div>
       Paper ({" "}
