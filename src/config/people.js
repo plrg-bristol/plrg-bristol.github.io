@@ -37,6 +37,14 @@ const faculty = [
   },
 ];
 
+const researchFellows = [
+  {
+    name: "Minh Nguyen",
+    src: "images/people/minh.png",
+    link: "https://min-nguyen.github.io/",
+  },
+];
+
 const researchAssociates = [
   {
     name: "Sam Frohlich",
@@ -58,15 +66,11 @@ const doctoralTeachingAssociates = [
   {
     name: "Jess Foster",
     src: "images/people/jess.jpg",
+    link: "https://github.com/ratherforky/",
   },
 ];
 
 const students = [
-  {
-    name: "Minh Nguyen",
-    src: "images/people/minh.png",
-    link: "https://min-nguyen.github.io/",
-  },
   {
     name: "Hanliang Zhang",
     src: NO_IMG_SRC,
@@ -90,34 +94,16 @@ const students = [
   },
 ];
 
-const researchFellows = [
+const partTimeAndVisitors = [
   {
     name: "Roly Perera",
     src: "images/people/roly.png",
     link: "http://dynamicaspects.org/research/",
   },
-];
-
-const researchAssistants = [
   {
-    name: "Rose Hudson",
-    src: NO_IMG_SRC,
-  },
-  {
-    name: "Natasha England-Elbro",
-    src: NO_IMG_SRC,
-  },
-  {
-    name: "Oli Newcombe",
-    src: NO_IMG_SRC,
-  },
-  {
-    name: "Shuyin Ouyang",
-    src: NO_IMG_SRC,
-  },
-  {
-    name: "Piotr Kozicki",
-    src: NO_IMG_SRC,
+    name: "Kazutaka Matsuda",
+    src: "images/people/kazutaka.jpg",
+    link: "https://www2.sf.ecei.tohoku.ac.jp/~kztk/",
   },
 ];
 
@@ -144,7 +130,7 @@ export function createPeople({ isOnHomePage = false } = {}) {
       [researchAssociates, "Research Associates"],
       [doctoralTeachingAssociates, "Doctoral Teaching Associates"],
       [students, "PhD Students"],
-      [researchAssistants, "Research Assistants"],
+      [partTimeAndVisitors, "Part Time and Visitors"],
       [pastMembers, "Past Members"],
     ];
   }
