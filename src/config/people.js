@@ -37,7 +37,7 @@ const faculty = [
   },
 ];
 
-const researchFellows = [
+const seniorResearchAssociate = [
   {
     name: "Minh Nguyen (EPSRC Doctoral Prize Fellow)",
     src: "images/people/minh.png",
@@ -55,10 +55,6 @@ const researchAssociates = [
     name: "Joe Bond",
     src: "images/people/joe.png",
     link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
-  },
-  {
-    name: "Cameron Low",
-    src: NO_IMG_SRC,
   },
 ];
 
@@ -96,14 +92,18 @@ const students = [
 
 const partTimeAndVisitors = [
   {
-    name: "Roly Perera",
+    name: "Roly Perera (Research Fellow)",
     src: "images/people/roly.png",
     link: "http://dynamicaspects.org/research/",
   },
   {
-    name: "Kazutaka Matsuda",
+    name: "Kazutaka Matsuda (Honorary Professor)",
     src: "images/people/kazutaka.jpg",
     link: "https://www2.sf.ecei.tohoku.ac.jp/~kztk/",
+  },
+  {
+    name: "Cameron Low",
+    src: NO_IMG_SRC,
   },
   {
     name: "Xing Zhang",
@@ -131,7 +131,7 @@ export function createPeople({ isOnHomePage = false } = {}) {
   } else {
     sections = [
       [faculty, "Faculty"],
-      [researchFellows, "Research Fellows"],
+      [seniorResearchAssociate, "Senior Research Associates"],
       [researchAssociates, "Research Associates"],
       [doctoralTeachingAssociates, "Doctoral Teaching Associates"],
       [students, "PhD Students"],
