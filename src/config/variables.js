@@ -23,7 +23,7 @@ export const FOOTER_LOGOS = [
 
 // Unlike in the main pages, if you want these links to open on another tab, rather than redirect, you manually need to add the target="_blank" and rel="noreferrer" attributes to the link.
 export const FOOTER_LINKS = [
-  <a rel="noreferrer" target="_blank" href="https://github.com/bristolpl">
+  <a rel="noreferrer" target="_blank" href="https://github.com/plrg-bristol">
     <i className="bi bi-github"></i>
   </a>,
   <a

@@ -38,7 +38,7 @@ const PAGES = {
                     </p>
                     <p>
                       Visit our{" "}
-                      <a href="https://github.com/bristolpl">
+                      <a href="https://github.com/plrg-bristol">
                         GitHub<i className="ms-1 bi bi-github"></i>
                       </a>
                       ,{" "}

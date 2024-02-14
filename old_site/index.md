@@ -16,8 +16,8 @@ Our research interests include:
   * semantics of programming languages
   * type theory
 
-Visit our [GitHub page](https://github.com/bristolpl).
-<a href="https://github.com/bristolpl">
+Visit our [GitHub page](https://github.com/plrg-bristol).
+<a href="https://github.com/plrg-bristol">
     <i class="icon-github" style="font-size: 2em"></i>
 </a>
 
@@ -44,7 +44,7 @@ Visit our [GitHub page](https://github.com/bristolpl).
 | COMS20007 | Programming Languages and Computation    |
 | COMS30040 | Lambda Calculus and Types                                                                               |
 | COMSM0067 | Advanced Topics in Programming Languages <br>
-              ([2021/22](https://bristolpl.github.io/APL-2021-Unit-Website/) |
+              ([2021/22](https://plrg-bristol.github.io/APL-2021-Unit-Website/) |
 
 ## Publications
 

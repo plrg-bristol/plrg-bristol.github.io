@@ -1,4 +1,4 @@
-# bristolpl.github.io
+# plrg-bristol.github.io
 
 Website for the Programming Languages Research Group, written in Jekyll.
 

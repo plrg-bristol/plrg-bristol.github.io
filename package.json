@@ -1,7 +1,7 @@
 {
   "name": "programming_languages_bristol",
   "version": "0.1.0",
-  "homepage": "https://bristolpl.github.io/",
+  "homepage": "https://plrg-bristol.github.io/",
   "private": true,
   "dependencies": {
     "@react-spring/web": "^9.5.2",
