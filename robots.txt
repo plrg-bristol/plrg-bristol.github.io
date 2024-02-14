@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-Sitemap: https://bristolpl.github.io//sitemap.xml
+Sitemap: https://plrg-bristol.github.io//sitemap.xml
 User-agent: *
 Disallow:
