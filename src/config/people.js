@@ -39,7 +39,12 @@ const faculty = [
 
 const researchFellows = [
   {
-    name: "Minh Nguyen",
+    name: "Roly Perera",
+    src: "images/people/roly.png",
+    link: "http://dynamicaspects.org/research/",
+  },
+  {
+    name: "Minh Nguyen (EPSRC Doctoral Prize Fellow)",
     src: "images/people/minh.png",
     link: "https://min-nguyen.github.io/",
   },
@@ -96,14 +101,14 @@ const students = [
 
 const partTimeAndVisitors = [
   {
-    name: "Roly Perera",
-    src: "images/people/roly.png",
-    link: "http://dynamicaspects.org/research/",
-  },
-  {
     name: "Kazutaka Matsuda",
     src: "images/people/kazutaka.jpg",
     link: "https://www2.sf.ecei.tohoku.ac.jp/~kztk/",
+  },
+  {
+    name: "Xing Zhang",
+    src: "images/people/xingzhang.jpg",
+    link: "https://xingzhang-pku.github.io/",
   },
 ];
 
