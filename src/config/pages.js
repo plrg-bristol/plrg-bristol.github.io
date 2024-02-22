@@ -11,6 +11,8 @@ import { createNews } from "./news";
 import { createPeople } from "./people";
 import { createTeaching } from "./teaching";
 import { createLocation } from "./location";
+import { createTalks } from "./talks";
+
 import HorizontalComponent from "../components/generics/horizontalComponent.js";
 
 const PAGES = {
@@ -91,6 +93,7 @@ const PAGES = {
       ]}
     />
   ),
+  talks: <PageComponent title="Talks" components={createTalks()} />,
   teaching: <PageComponent title="Teaching" components={createTeaching()} />,
   news: <PageComponent title="News" components={createNews()} />,
   people: (
