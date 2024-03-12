@@ -7,6 +7,19 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "March 2024",
+    <div>
+      <a
+        href="https://xingzhang-pku.github.io/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Xing Zhang
+      </a>{" "}
+      from Peking University is visiting us for 5 months. Welcome Xing!
+    </div>,
+  ],
+  [
     "February 2024",
     <div>
       Jess traveled to Southampton to give a talk on Haskell game development to
