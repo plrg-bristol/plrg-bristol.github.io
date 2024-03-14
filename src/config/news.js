@@ -9,6 +9,20 @@ const news = [
   [
     "March 2024",
     <div>
+      Cristina is recruiting a PostDoc in programming languages. Apply{" "}
+      <a
+        href="https://www.bristol.ac.uk/jobs/find/details/?jobId=337277"
+        target="_blank"
+        rel="noreferrer"
+      >
+        here
+      </a>{" "}
+      (deadline: 18th March)
+    </div>,
+  ],
+  [
+    "March 2024",
+    <div>
       <a
         href="https://xingzhang-pku.github.io/"
         target="_blank"
