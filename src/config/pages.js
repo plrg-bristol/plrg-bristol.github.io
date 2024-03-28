@@ -49,6 +49,11 @@ const PAGES = {
                         <i className="ms-1 bi bi-box-arrow-up-right"></i>
                       </a>
                       ,{" "}
+                      <a href="https://twitter.com/PLRG_bristol">
+                        Twitter (@PLRG_bristol)
+                        <i className="ms-1 bi bi-twitter"></i>
+                      </a>
+                      ,{" "}
                       <span className="text-nowrap">
                         or contact us at{" "}
                         <a href={`mailto: ${CONTACT_EMAIL}`}>

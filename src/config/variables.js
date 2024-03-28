@@ -26,6 +26,9 @@ export const FOOTER_LINKS = [
   <a rel="noreferrer" target="_blank" href="https://github.com/plrg-bristol">
     <i className="bi bi-github"></i>
   </a>,
+  <a rel="noreferrer" target="_blank" href="https://twitter.com/PLRG_bristol">
+    <i className="bi bi-twitter"></i>
+  </a>,
   <a
     rel="noreferrer"
     target="_blank"
