@@ -69,7 +69,7 @@ const doctoralTeachingAssociates = [
 const students = [
   {
     name: "Hanliang Zhang",
-    src: NO_IMG_SRC,
+    src: "images/people/hanliang.jpg",
   },
   {
     name: "Yoav Alon",
