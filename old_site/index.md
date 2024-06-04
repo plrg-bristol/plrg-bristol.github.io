@@ -15,6 +15,7 @@ Our research interests include:
   * security, cryptography, and programming languages
   * semantics of programming languages
   * type theory
+  * bidirectional programming
 
 Visit our [GitHub page](https://github.com/plrg-bristol).
 <a href="https://github.com/plrg-bristol">

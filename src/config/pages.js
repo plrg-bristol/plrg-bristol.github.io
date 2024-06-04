@@ -72,6 +72,7 @@ const PAGES = {
                   "&#8226; Type theory",
                   "&#8226; Software testing",
                   "&#8226; Security and cryptography",
+                  "&#8226; Bidirectional programming",
                 ]}
               />
             </div>,
