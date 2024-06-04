@@ -7,6 +7,28 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "May 2024",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "Sam and Jess posing in front of a poster advertising their talks at Peking University."
+          }
+          src={"images/news/sam-jess-peking-visit.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        Sam and Jess visited the{" "}
+        <a href="https://pl.cs.pku.edu.cn/en/" target="_blank" rel="noreferrer">
+          Programming Languages Lab at Peking University
+        </a>{" "}
+        and had a fantastic time. Thank you Professor Hu and all the members of
+        the lab for your wonderful hospitality!
+      </p>
+    </div>,
+  ],
+  [
     "March 2024",
     <div>
       Cristina is recruiting a PostDoc in programming languages. Apply{" "}
