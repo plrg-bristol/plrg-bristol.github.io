@@ -7,6 +7,28 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "13-15 August 2024",
+    <div>
+      {/* <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "Sam and Jess posing in front of a poster advertising their talks at Peking University."
+          }
+          src={"images/news/sam-jess-peking-visit.jpg"}
+          maxHeight="315px"
+        />
+      </div> */}
+      {/* <p> */}
+      The group hosted the{" "}
+      <a href="https://wp.doc.ic.ac.uk/vss24/" target="_blank" rel="noreferrer">
+        2024 VeTSS Summer School
+      </a>
+      , which we're happy to say was a great success! A special thank you to
+      Teresa and Azalea from Imperial, Ling and Brijesh from Surrey, and Ell
+      from the CS school office for all their hard work.{/* </p> */}
+    </div>,
+  ],
+  [
     "May 2024",
     <div>
       <div className="d-flex justify-content-center align-items-center">
