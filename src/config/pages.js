@@ -99,8 +99,6 @@ const PAGES = {
       ]}
     />
   ),
-  talks: <PageComponent title="Talks" components={createTalks()} />,
-  teaching: <PageComponent title="Teaching" components={createTeaching()} />,
   news: <PageComponent title="News" components={createNews()} />,
   people: (
     <PageComponent
@@ -114,6 +112,8 @@ const PAGES = {
       components={[<ResearchComponent keywords="Programming Languages" />]}
     />
   ),
+  talks: <PageComponent title="Talks" components={createTalks()} />,
+  teaching: <PageComponent title="Teaching" components={createTeaching()} />,
 };
 
 export default PAGES;
