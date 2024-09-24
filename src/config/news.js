@@ -7,18 +7,39 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
-    "13-15 August 2024",
+    "September 2024",
     <div>
-      {/* <div className="d-flex justify-content-center align-items-center">
+      <div className="d-flex justify-content-center align-items-center">
         <ImageComponent
-          alt={
-            "Sam and Jess posing in front of a poster advertising their talks at Peking University."
-          }
-          src={"images/news/sam-jess-peking-visit.jpg"}
+          alt={"Meng receiving distinguished paper award at ECOOP 2024."}
+          src={"images/news/meng-ECOOP.jpg"}
           maxHeight="315px"
         />
-      </div> */}
-      {/* <p> */}
+      </div>
+      <p>
+        Meng received a distinguished paper award at ECOOP'24 for his paper{" "}
+        <a
+          href="https://doi.org/10.4230/LIPIcs.ECOOP.2024.39"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Formalizing, Mechanizing, and Verifying Class-Based Refinement Types
+        </a>{" "}
+        in collaboration with Ke Sun, Di Wang, Sheng Chen, and Dan Hao.
+      </p>
+    </div>,
+  ],
+  [
+    "September 2024",
+    <div>
+      Many of us went to ICFP'24 in Milan: Sam gave a talk at PLWM; Hanliang
+      gave a talk at ICFP; Jess was part of the AV team and took the lead on
+      filming the FARM performance.
+    </div>,
+  ],
+  [
+    "13-15 August 2024",
+    <div>
       The group hosted the{" "}
       <a href="https://wp.doc.ic.ac.uk/vss24/" target="_blank" rel="noreferrer">
         2024 VeTSS Summer School
