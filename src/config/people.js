@@ -35,6 +35,11 @@ const faculty = [
     src: "images/people/eddie.png",
     link: "https://ec-jones.github.io/",
   },
+  {
+    name: "Sam Frohlich",
+    src: "images/people/sam.jpg",
+    link: "https://samfrohlich.github.io/",
+  },
 ];
 
 const seniorResearchAssociate = [
@@ -47,11 +52,6 @@ const seniorResearchAssociate = [
 
 const researchAssociates = [
   {
-    name: "Sam Frohlich",
-    src: "images/people/sam.jpg",
-    link: "https://samfrohlich.github.io/",
-  },
-  {
     name: "Joe Bond",
     src: "images/people/joe.png",
     link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
@@ -60,7 +60,7 @@ const researchAssociates = [
 
 const doctoralTeachingAssociates = [
   {
-    name: "Jess Foster",
+    name: "Jessica Foster",
     src: "images/people/jess.jpg",
     link: "https://github.com/ratherforky/",
   },
@@ -105,11 +105,6 @@ const partTimeAndVisitors = [
     name: "Cameron Low",
     src: NO_IMG_SRC,
   },
-  {
-    name: "Xing Zhang",
-    src: "images/people/xingzhang.jpg",
-    link: "https://xingzhang-pku.github.io/",
-  },
 ];
 
 const pastMembers = [
@@ -121,6 +116,11 @@ const pastMembers = [
   {
     name: "Jerome Jochems",
     src: "images/people/jerome.jpg",
+  },
+  {
+    name: "Xing Zhang",
+    src: "images/people/xingzhang.jpg",
+    link: "https://xingzhang-pku.github.io/",
   },
 ];
 
