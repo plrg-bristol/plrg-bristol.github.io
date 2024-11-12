@@ -7,6 +7,34 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "October 2024",
+    <div>
+      Alex won an ARIA grant to study{" "}
+      <a
+        href="https://www.aria.org.uk/safeguarded-ai-creators/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Safeguarded AI
+      </a>{" "}
+      for his project "Two-dimensional Kripke Semantics and World Models".
+    </div>,
+  ],
+  [
+    "October 2024",
+    <div>
+      Alex is serving on the{" "}
+      <a
+        href="https://2025.splashcon.org/track/OOPSLA"
+        target="_blank"
+        rel="noreferrer"
+      >
+        OOPSLA 2025
+      </a>{" "}
+      committee.
+    </div>,
+  ],
+  [
     "September 2024",
     <div>
       <div className="d-flex justify-content-center align-items-center">
@@ -47,6 +75,16 @@ const news = [
       , which we're happy to say was a great success! A special thank you to
       Teresa and Azalea from Imperial, Ling and Brijesh from Surrey, and Ell
       from the CS school office for all their hard work.{/* </p> */}
+    </div>,
+  ],
+  [
+    "June 2022",
+    <div>
+      <VideoComponent src="https://www.youtube.com/embed/GcN9YTYQDsA?si=vkMPo9_4s0gP8fhn" />
+      <p>
+        Alex gave a talk on Two-Dimensional Kripke Semantics at{" "}
+        <a href="https://oxford24.github.io/">MFPS 2024</a> in Oxford.
+      </p>
     </div>,
   ],
   [

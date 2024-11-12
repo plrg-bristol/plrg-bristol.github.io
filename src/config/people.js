@@ -72,6 +72,10 @@ const students = [
     src: "images/people/hanliang.jpg",
   },
   {
+    name: "Tom Divers",
+    src: "images/people/tom.jpg",
+  },
+  {
     name: "Yoav Alon",
     src: NO_IMG_SRC,
     link: "https://research-information.bris.ac.uk/en/persons/yoav-alon",
