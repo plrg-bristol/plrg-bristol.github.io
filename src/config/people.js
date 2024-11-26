@@ -106,6 +106,11 @@ const partTimeAndVisitors = [
     link: "https://www2.sf.ecei.tohoku.ac.jp/~kztk/",
   },
   {
+    name: "Ke Sun",
+    src: "images/people/ke.jpg",
+    link: NO_IMG_SRC,
+  },
+  {
     name: "Cameron Low",
     src: NO_IMG_SRC,
   },
