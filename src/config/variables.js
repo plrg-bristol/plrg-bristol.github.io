@@ -18,6 +18,11 @@ export const FOOTER_LOGOS = [
     alt: "Home",
     link: "/",
   },
+  {
+    src: "images/zulip-icon-circle.svg",
+    alt: "Zulip logo",
+    link: "https://zulip.com/",
+  },
   null,
 ];
 

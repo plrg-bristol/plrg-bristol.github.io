@@ -7,6 +7,19 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "January 2025",
+    "Joseph Bond, Cristina David, Minh Nguyen, Dominic Orchard, Roly Perera, 'Conjugate operators for transparent, explorable research outputs', accepted at ESOP'25",
+  ],
+  [
+    "January 2025",
+    "Henrijs Princis, Cristina David, Alan Mycroft, 'Enhancing SQL Query Generation with Neurosymbolic Reasoning', accepted at AAAI'25",
+  ],
+  [
+    "January 2025",
+    "Yoav Alon, Cristina David, 'Integrating Large Language Models and Reinforcement Learning for Non-Linear Reasoning', accepted at FSE'25",
+  ],
+  ["January 2025", "Cristina David will be on the committee of CAV'25"],
+  [
     "October 2024",
     <div>
       Alex won an ARIA grant to study{" "}
