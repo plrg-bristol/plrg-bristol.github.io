@@ -7,6 +7,24 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "February 2025",
+    <div>
+      We are recruiting a Senior Research Associate in Programming Languages.{" "}
+      <a
+        href="https://www.bristol.ac.uk/jobs/find/details/?jobId=372879"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Click here to find more details and apply.
+      </a>{" "}
+      Deadline: 26th March.
+    </div>,
+  ],
+  [
+    "February 2025",
+    "Eddie Jones will serve on the POPL 2026 program committee.",
+  ],
+  [
     "January 2025",
     "Joseph Bond, Cristina David, Minh Nguyen, Dominic Orchard, Roly Perera, 'Conjugate operators for transparent, explorable research outputs', accepted at ESOP'25",
   ],
