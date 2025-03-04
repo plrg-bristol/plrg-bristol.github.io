@@ -12,6 +12,7 @@ module.exports = function override(config) {
     https: require.resolve("https-browserify"),
     os: require.resolve("os-browserify"),
     url: require.resolve("url"),
+    process: require.resolve("process/browser"),
   });
   config.resolve.fallback = fallback;
 
@@ -26,6 +27,24 @@ module.exports = function override(config) {
       patterns: [{ from: "docs" }],
     }),
   ]);
+
+  /*
+  Fix from: https://github.com/facebookresearch/segment-anything/issues/678#issuecomment-1927634108
+  Original error:
+    Module not found: Error: Can't resolve 'process/browser' in './node_modules/axios/lib'
+    Did you mean 'browser.js'?
+    BREAKING CHANGE: The request 'process/browser' failed to resolve only because it was resolved as fully specified
+    (probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file,
+    or a '*.js' file where the package.json contains '"type": "module"').
+*/
+  // Add a new rule onto the end of the current list of rules
+  config.module.rules.push({
+    test: /\.m?js/, // Only apply this rule to .mjs files
+    resolve: {
+      // Documentation: https://webpack.js.org/configuration/resolve/#resolvefullyspecified
+      fullySpecified: false, // Don't assume the modules are fully specified when resolving
+    },
+  });
 
   return config;
 };
