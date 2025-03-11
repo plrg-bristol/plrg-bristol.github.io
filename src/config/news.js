@@ -7,6 +7,14 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "March 2025",
+    "Meng is now serving as the Steering Committee Chair for Partial Evaluation and Program Manipulation (PEPM).",
+  ],
+  [
+    "March 2025",
+    "Scalable, Validated Code Translation of Entire Projects using Large Language Models is (conditionally) accepted by PLDI.",
+  ],
+  [
     "February 2025",
     <div>
       We are recruiting a Senior Research Associate in Programming Languages.{" "}
