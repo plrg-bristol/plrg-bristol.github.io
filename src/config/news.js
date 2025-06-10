@@ -7,6 +7,29 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "May 2025",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={"Nicola Assolini giving a talk to the PLRG"}
+          src={"images/news/nicola-assolini-may-2025.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        <a
+          href="https://nicolaassolini98.github.io/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Nicola Assolini
+        </a>{" "}
+        visited us from the University of Verona to work with us on embedded
+        quantum programming languages in Haskell.
+      </p>
+    </div>,
+  ],
+  [
     "March 2025",
     "Meng is now serving as the Steering Committee Chair for Partial Evaluation and Program Manipulation (PEPM).",
   ],
