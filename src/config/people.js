@@ -42,19 +42,21 @@ const faculty = [
   },
 ];
 
-const seniorResearchAssociate = [
-  {
-    name: "Minh Nguyen (EPSRC Doctoral Prize Fellow)",
-    src: "images/people/minh.png",
-    link: "https://min-nguyen.github.io/",
-  },
-];
+// const seniorResearchAssociate = [];
 
 const researchAssociates = [
   {
     name: "Joe Bond",
     src: "images/people/joe.png",
     link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
+  },
+];
+
+const postdocs = [
+  {
+    name: "Arindam Sharma",
+    src: "images/people/arindam.jpg",
+    link: "https://srg.doc.ic.ac.uk/people/arindam-sharma/",
   },
 ];
 
@@ -118,18 +120,23 @@ const partTimeAndVisitors = [
 
 const pastMembers = [
   {
-    name: "Weixin Zhang",
-    src: "images/people/weixin.jpg",
-    link: "https://wxzh.github.io/",
+    name: "Minh Nguyen",
+    src: "images/people/minh.png",
+    link: "https://min-nguyen.github.io/",
+  },
+  {
+    name: "Xing Zhang",
+    src: "images/people/xingzhang.jpg",
+    link: "https://xingzhang-pku.github.io/",
   },
   {
     name: "Jerome Jochems",
     src: "images/people/jerome.jpg",
   },
   {
-    name: "Xing Zhang",
-    src: "images/people/xingzhang.jpg",
-    link: "https://xingzhang-pku.github.io/",
+    name: "Weixin Zhang",
+    src: "images/people/weixin.jpg",
+    link: "https://wxzh.github.io/",
   },
 ];
 
@@ -140,8 +147,9 @@ export function createPeople({ isOnHomePage = false } = {}) {
   } else {
     sections = [
       [faculty, "Faculty"],
-      [seniorResearchAssociate, "Senior Research Associates"],
+      // [seniorResearchAssociate, "Senior Research Associates"],
       [researchAssociates, "Research Associates"],
+      [postdocs, "Postdocs"],
       [doctoralTeachingAssociates, "Doctoral Teaching Associates"],
       [students, "PhD Students"],
       [partTimeAndVisitors, "Part Time and Visitors"],
