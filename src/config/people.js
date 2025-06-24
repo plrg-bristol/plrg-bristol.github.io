@@ -42,21 +42,16 @@ const faculty = [
   },
 ];
 
-// const seniorResearchAssociate = [];
-
 const researchAssociates = [
+  {
+    name: "Arindam Sharma (Senior Research Associate)",
+    src: "images/people/arindam.jpg",
+    link: "https://srg.doc.ic.ac.uk/people/arindam-sharma/",
+  },
   {
     name: "Joe Bond",
     src: "images/people/joe.png",
     link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
-  },
-];
-
-const postdocs = [
-  {
-    name: "Arindam Sharma",
-    src: "images/people/arindam.jpg",
-    link: "https://srg.doc.ic.ac.uk/people/arindam-sharma/",
   },
 ];
 
@@ -92,6 +87,10 @@ const students = [
   },
   {
     name: "April Tune",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Henrijs Princis",
     src: NO_IMG_SRC,
   },
 ];
@@ -147,9 +146,7 @@ export function createPeople({ isOnHomePage = false } = {}) {
   } else {
     sections = [
       [faculty, "Faculty"],
-      // [seniorResearchAssociate, "Senior Research Associates"],
       [researchAssociates, "Research Associates"],
-      [postdocs, "Postdocs"],
       [doctoralTeachingAssociates, "Doctoral Teaching Associates"],
       [students, "PhD Students"],
       [partTimeAndVisitors, "Part Time and Visitors"],
