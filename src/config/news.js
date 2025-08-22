@@ -18,6 +18,11 @@ const news = [
       .
     </div>,
   ],
+  ["August 2025", "Meng will be serving on the PLDI 2026 program committee."],
+  [
+    "August 2025",
+    "Yoav Alon has passed his PhD defence with the thesis 'Neural Reasoning For Program Analysis' Congratulations Yoav!",
+  ],
   [
     "June 2025",
     <div>
