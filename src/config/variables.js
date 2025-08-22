@@ -7,23 +7,21 @@ export const LOGO_ACRONYM_ONLY_TRANS_SRC = "images/logo-acronym-only-trans.png";
 export const CONTACT_EMAIL = "pl-rg@bristol.ac.uk";
 // Using nulls below to help with spacing:
 export const FOOTER_LOGOS = [
-  null,
-  {
-    src: "images/uni_logo.png",
-    alt: "University of Bristol Logo",
-    link: "https://www.bristol.ac.uk/",
-  },
   {
     src: LOGO_ACRONYM_ONLY_TRANS_SRC,
     alt: "Home",
     link: "/",
   },
   {
+    src: "images/uni_logo.png",
+    alt: "University of Bristol Logo",
+    link: "https://www.bristol.ac.uk/",
+  },
+  {
     src: "images/zulip-icon-circle.svg",
     alt: "Zulip logo",
     link: "https://zulip.com/",
   },
-  null,
 ];
 
 // Unlike in the main pages, if you want these links to open on another tab, rather than redirect, you manually need to add the target="_blank" and rel="noreferrer" attributes to the link.

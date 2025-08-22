@@ -7,6 +7,53 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "August 2025",
+    <div>
+      Two proposals from the group, "Secure Code Generation with Large Language
+      Models" (Arindam Sharma and Cristina David) and "Relational Dualities for
+      Program Logics" (Alex Kavvos), have been accepted for funding by the{" "}
+      <a href="https://vetss.org.uk/" target="_blank" rel="noreferrer">
+        Research Institute in Verified Trustworthy Software Systems (VeTSS)
+      </a>
+      .
+    </div>,
+  ],
+  [
+    "June 2025",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "Hanliang presenting 'Scalable, Validated Code Translation of Entire Projects using LLMs' at PLDI 2025 in Seoul."
+          }
+          src={"images/news/hanliang-PLDI-2025.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        Hanliang presenting our recent work on translating entire code
+        repositories to Rust at PLDI 2025. (
+        <a
+          href="https://dl.acm.org/doi/abs/10.1145/3729315"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Paper
+        </a>
+        ,{" "}
+        <a
+          href="https://www.youtube.com/watch?v=7M9KHvbOL3U"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Video
+        </a>
+        ). This marks a significant milestone in our ongoing collaboration with
+        Amazon.
+      </p>
+    </div>,
+  ],
+  [
     "May 2025",
     <div>
       <div className="d-flex justify-content-center align-items-center">
@@ -27,6 +74,34 @@ const news = [
         visited us from the University of Verona to work with us on embedded
         quantum programming languages in Haskell.
       </p>
+    </div>,
+  ],
+  [
+    "April 2025",
+    <div>
+      Alex Kavvos served on the{" "}
+      <a
+        href="https://icfp25.sigplan.org/committee/icfp-2025-papers-icfp-papers-and-events"
+        target="_blank"
+        rel="noreferrer"
+      >
+        ICFP 2025 Programme Committee
+      </a>
+      .
+    </div>,
+  ],
+  [
+    "April 2025",
+    <div>
+      Sam Frohlich will be presenting at the{" "}
+      <a
+        href="https://vetss.org.uk/event/vetss-annual-meeting-2025/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        VeTSS Annual Meeting 2025
+      </a>
+      .
     </div>,
   ],
   [
