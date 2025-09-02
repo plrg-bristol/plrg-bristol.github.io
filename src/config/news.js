@@ -9,6 +9,31 @@ const news = [
   [
     "August 2025",
     <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "Sam with a large group of friendly people at the EHOP workshop 2025"
+          }
+          src={"images/news/ehop-workshop-2025.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        Sam had a great time at the{" "}
+        <a
+          href="https://effect-handlers.org/events/ehop-workshop2025.html"
+          target="_blank"
+          rel="noreferrer"
+        >
+          EHOP Workshop 2025
+        </a>
+        .
+      </p>
+    </div>,
+  ],
+  [
+    "August 2025",
+    <div>
       Two proposals from the group, "Secure Code Generation with Large Language
       Models" (Arindam Sharma and Cristina David) and "Relational Dualities for
       Program Logics" (Alex Kavvos), have been accepted for funding by the{" "}
