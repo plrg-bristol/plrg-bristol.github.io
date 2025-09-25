@@ -93,6 +93,19 @@ const students = [
     name: "Henrijs Princis",
     src: NO_IMG_SRC,
   },
+  {
+    name: "Samson Main",
+    src: NO_IMG_SRC,
+    link: "https://mains03.github.io/"
+  },
+  {
+    name: "Piotr Kozicki",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Amos Holland",
+    src: NO_IMG_SRC,
+  },
 ];
 
 const partTimeAndVisitors = [
@@ -148,7 +161,7 @@ export function createPeople({ isOnHomePage = false } = {}) {
       [faculty, "Faculty"],
       [researchAssociates, "Research Associates"],
       [doctoralTeachingAssociates, "Doctoral Teaching Associates"],
-      [students, "PhD Students"],
+      [students, "Research Students"],
       [partTimeAndVisitors, "Part Time and Visitors"],
       [pastMembers, "Past Members"],
     ];
