@@ -6,32 +6,32 @@ import HorizontalComponent from "../components/generics/horizontalComponent";
 
 const faculty = [
   {
-    name: "Meng Wang (head of group)",
+    name: "Professor Meng Wang (head of group)",
     src: "images/people/meng.jpg",
     link: "https://mengwangoxf.github.io/",
   },
   {
-    name: "François Dupressoir",
+    name: "Dr François Dupressoir",
     src: "images/people/francois.jpg",
     link: "https://fdupress.net/",
   },
   {
-    name: "Steven Ramsay",
+    name: "Dr Steven Ramsay",
     src: "images/people/steven.jpg",
     link: "https://sjrsay.github.io/",
   },
   {
-    name: "Cristina David",
+    name: "Dr Cristina David",
     src: "images/people/cristina.jpg",
     link: "https://cristina-david.github.io/",
   },
   {
-    name: "Alex Kavvos",
+    name: "Dr Alex Kavvos",
     src: "images/people/alex.jpg",
     link: "https://www.lambdabetaeta.eu/",
   },
   {
-    name: "Eddie Jones",
+    name: "Dr Eddie Jones",
     src: "images/people/eddie.png",
     link: "https://ec-jones.github.io/",
   },
@@ -44,14 +44,13 @@ const faculty = [
 
 const researchAssociates = [
   {
-    name: "Arindam Sharma (Senior Research Associate)",
+    name: "Arindam Sharma",
     src: "images/people/arindam.jpg",
     link: "https://srg.doc.ic.ac.uk/people/arindam-sharma/",
   },
   {
-    name: "Joe Bond",
-    src: "images/people/joe.png",
-    link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
+    name: "Wenjia Ye",
+    src: NO_IMG_SRC,
   },
 ];
 
@@ -71,6 +70,11 @@ const students = [
   {
     name: "Tom Divers",
     src: "images/people/tom.jpg",
+  },
+  {
+    name: "Joe Bond",
+    src: "images/people/joe.png",
+    link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
   },
   {
     name: "Yoav Alon",
@@ -96,14 +100,22 @@ const students = [
   {
     name: "Samson Main",
     src: NO_IMG_SRC,
-    link: "https://mains03.github.io/"
-  },
-  {
-    name: "Piotr Kozicki",
-    src: NO_IMG_SRC,
+    link: "https://mains03.github.io/",
   },
   {
     name: "Amos Holland",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Weilin He",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Liqiang Shang",
+    src: NO_IMG_SRC,
+  },
+  {
+    name: "Piotr Kozicki",
     src: NO_IMG_SRC,
   },
 ];
