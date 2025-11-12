@@ -12,6 +12,17 @@ const talks = [
   //   video: <VideoComponent src="TODO: embedded youtube link" />,
   // },
   {
+    title:
+      "Scalable, Validated Code Translation of Entire Projects using Large Language Models",
+    authors: (
+      <div>
+        <em>Hanliang Zhang</em>
+      </div>
+    ),
+    location: "PLDI'25",
+    video: <VideoComponent src="https://www.youtube.com/embed/7M9KHvbOL3U" />,
+  },
+  {
     title: "Consider Collaboration",
     authors: (
       <div>
@@ -19,9 +30,7 @@ const talks = [
       </div>
     ),
     location: "PLMW@POPL'24",
-    video: (
-      <VideoComponent src="https://www.youtube.com/embed/Yqvub1h-gZs?si=6n0dCGtJxrg-M1xG&amp;start=23955" />
-    ),
+    video: <VideoComponent src="https://www.youtube.com/embed/sSl-856qUOA" />,
   },
   {
     title: (
