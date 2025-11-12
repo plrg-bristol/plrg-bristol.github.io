@@ -27,9 +27,15 @@ const courses = [
     code: null,
     name: "Advanced Haskell Seminar Series",
     description: (
-      <a href="https://github.com/plrg-bristol/advanced-haskell-2024">
-        2024 repo
-      </a>
+      <div>
+        <a href="https://github.com/plrg-bristol/advanced-haskell-2025">
+          2025 repo
+        </a>
+        ,{" "}
+        <a href="https://github.com/plrg-bristol/advanced-haskell-2024">
+          2024 repo
+        </a>
+      </div>
     ),
   },
 ];
