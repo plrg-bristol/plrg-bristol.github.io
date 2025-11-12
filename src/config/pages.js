@@ -38,30 +38,6 @@ const PAGES = {
                         University of Bristol
                       </a>
                     </p>
-                    <p>
-                      Visit our{" "}
-                      <a href="https://github.com/plrg-bristol">
-                        GitHub<i className="ms-1 bi bi-github"></i>
-                      </a>
-                      ,{" "}
-                      <a href="https://www.bristol.ac.uk/engineering/research/programming-languages/">
-                        faculty page
-                        <i className="ms-1 bi bi-box-arrow-up-right"></i>
-                      </a>
-                      ,{" "}
-                      <a href="https://twitter.com/PLRG_bristol">
-                        Twitter (@PLRG_bristol)
-                        <i className="ms-1 bi bi-twitter"></i>
-                      </a>
-                      ,{" "}
-                      <span className="text-nowrap">
-                        or contact us at{" "}
-                        <a href={`mailto: ${CONTACT_EMAIL}`}>
-                          {CONTACT_EMAIL}
-                          <i className="ms-1 bi bi-envelope-fill"></i>
-                        </a>
-                      </span>
-                    </p>
                     <p className="mb-0">Our research interests include:</p>
                   </div>,
                   "&#8226; Functional programming",

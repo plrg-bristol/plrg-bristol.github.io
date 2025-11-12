@@ -39,7 +39,7 @@ export const FOOTER_LINKS = [
   >
     <i className="bi bi-box-arrow-up-right"></i>
   </a>,
-  <a rel="noreferrer" target="_blank" href={`mailto: ${CONTACT_EMAIL}`}>
-    <i className="ms-1 bi bi-envelope-fill"></i>
-  </a>,
+  // <a rel="noreferrer" target="_blank" href={`mailto: ${CONTACT_EMAIL}`}>
+  //   <i className="ms-1 bi bi-envelope-fill"></i>
+  // </a>,
 ];
