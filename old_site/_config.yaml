@@ -1,8 +1,0 @@
-title: PL @ Bristol
-name: Programming Languages @ Bristol
-
-sass:
-  sass_dir: assets/css
-  style:    compressed
-
-markdown: kramdown
