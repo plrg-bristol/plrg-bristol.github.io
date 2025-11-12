@@ -7,6 +7,65 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "November 2025",
+    "Wenjia Ye has joined the group as a senior research associate, after a PhD from University of Hong Kong and a PostDoc stint at National University of Singapore. She will be working on gradual typing for Rust with Meng Wang and Cristina David.",
+  ],
+  [
+    "29 October 2025",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "14 of us, PLRG members and undergrads, posing for a group photo at AWS headquarters in London. There is remarkably little agreement about what poses and faces to adopt."
+          }
+          src={"images/news/S-REPLS17-group-photo.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        We showed up in force to{" "}
+        <a
+          href="https://aws-experience.com/emea/uki/e/70859/s-repls"
+          target="_blank"
+          rel="noreferrer"
+        >
+          S-REPLS 17
+        </a>
+        , along with many enthusiastic undergrads! Cristina (who had to leave
+        before we could take the photo) gave a talk on automating translation of
+        real-world codebases.
+      </p>
+    </div>,
+  ],
+  [
+    "October 2025",
+    "5 new PhD students started in the group. Welcome Henrijs Princis, Samson Main, Amos Holland, Weilin He, and Liqiang Shang!",
+  ],
+  [
+    "October 2025",
+    <div>
+      Jess, Alex, and Roly attending ICFP/SPLASH25 in Singapore. Jess filmed the
+      FARM performance (expect the edited videos to be published some time next
+      year!), Alex gave a talk at OOPSLA (
+      <a
+        href="https://2025.splashcon.org/details/OOPSLA/46/Adequacy-for-Algebraic-Effects-Revisited"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Adequacy for Algebraic Effects Revisited
+      </a>
+      ), and Roly gave a talk at PROPL (
+      <a
+        href="https://conf.researchr.org/details/icfp-splash-2025/propl-2025-papers/10/Authoring-Tools-for-Transparent-Climate-Reporting"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Authoring Tools for Transparent Climate Reporting
+      </a>
+      ).
+    </div>,
+  ],
+  [
     "August 2025",
     <div>
       <div className="d-flex justify-content-center align-items-center">
