@@ -50,7 +50,8 @@ const researchAssociates = [
   },
   {
     name: "Wenjia Ye",
-    src: NO_IMG_SRC,
+    src: "images/people/wenjia.jpg",
+    link: "https://yewenjia.github.io/",
   },
 ];
 
@@ -77,46 +78,42 @@ const students = [
     link: "https://research-information.bris.ac.uk/en/persons/joseph-e-c-bond",
   },
   {
-    name: "Yoav Alon",
-    src: NO_IMG_SRC,
-    link: "https://research-information.bris.ac.uk/en/persons/yoav-alon",
-  },
-  {
     name: "Celia Li",
-    src: NO_IMG_SRC,
+    src: "images/people/celia.jpg",
   },
   {
     name: "Charlie Walpole",
-    src: NO_IMG_SRC,
+    src: "images/people/charlie.jpg",
   },
   {
     name: "April Tune",
-    src: NO_IMG_SRC,
+    src: "images/people/april.jpg",
   },
   {
     name: "Henrijs Princis",
-    src: NO_IMG_SRC,
+    src: "images/people/henrijs.jpg",
   },
   {
     name: "Samson Main",
-    src: NO_IMG_SRC,
+    src: "images/people/samson.jpg",
     link: "https://mains03.github.io/",
   },
   {
     name: "Amos Holland",
-    src: NO_IMG_SRC,
+    src: "images/people/amos.jpg",
+    link: "https://amosholland.github.io/",
   },
   {
     name: "Weilin He",
-    src: NO_IMG_SRC,
+    src: "images/people/weilin.jpg",
   },
   {
     name: "Liqiang Shang",
-    src: NO_IMG_SRC,
+    src: "images/people/liqiang.jpg",
   },
   {
     name: "Piotr Kozicki",
-    src: NO_IMG_SRC,
+    src: "images/people/piotr.jpg",
   },
 ];
 
@@ -134,15 +131,19 @@ const partTimeAndVisitors = [
   {
     name: "Ke Sun",
     src: "images/people/ke.jpg",
-    link: NO_IMG_SRC,
   },
   {
     name: "Cameron Low",
-    src: NO_IMG_SRC,
+    src: "images/people/cameron.jpg",
   },
 ];
 
 const pastMembers = [
+  {
+    name: "Yoav Alon",
+    src: "images/people/yoav.jpg",
+    link: "https://research-information.bris.ac.uk/en/persons/yoav-alon",
+  },
   {
     name: "Minh Nguyen",
     src: "images/people/minh.png",
