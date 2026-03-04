@@ -7,6 +7,72 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "February 2026",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "Shot of S-REPLS 18 from the back of the room during Martin Lester's talk."
+          }
+          src={"images/news/s-repls18-crowd.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        We hosted{" "}
+        <a
+          href="https://plrg-bristol.github.io/SREPLS18/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          S-REPLS 18
+        </a>{" "}
+        at{" "}
+        <a href="https://www.watershed.co.uk/" target="_blank" rel="noreferrer">
+          Watershed
+        </a>{" "}
+        in Bristol! The event was a great success and featured keynote talks
+        from{" "}
+        <a
+          href="https://www.soundandcomplete.org/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Azalea Raad
+        </a>{" "}
+        and{" "}
+        <a href="https://cs.brown.edu/~sk/" target="_blank" rel="noreferrer">
+          Shriram Krishnamurthi
+        </a>
+        .
+      </p>
+    </div>,
+  ],
+  [
+    "February 2026",
+    <div>
+      Congratulations to Meng Wang on his project{" "}
+      <i>Complex Semantics for Higher Order Abstract Syntax</i> which has been
+      funded through the EPSRC Standard Mode.
+    </div>,
+  ],
+  [
+    "February 2026",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={"Sam with her viva examiners."}
+          src={"images/news/sam-viva.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        Congratulations to Sam who passed her PhD viva with thesis title
+        "Embedding Complex Languages in the Functional Programming Vernacular"!
+      </p>
+    </div>,
+  ],
+  [
     "November 2025",
     "Wenjia Ye has joined the group as a senior research associate, after a PhD from University of Hong Kong and a PostDoc stint at National University of Singapore. She will be working on gradual typing for Rust with Meng Wang and Cristina David.",
   ],
