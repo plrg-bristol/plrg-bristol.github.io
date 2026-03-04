@@ -73,6 +73,24 @@ const news = [
     </div>,
   ],
   [
+    "January 2026",
+    <div>
+      <p>The group has two papers at POPL'26!  Come to our talks to hear about the latest ideas in the semantics of functional logic programming and in type systems for bug-finding.</p>
+      <ul>
+        <li>
+          <p><a href="https://doi.org/10.1145/3776699" target="_blank" rel="noreferrer">Domain-Theoretic Semantics for Functional Logic Programming</a>, by Eddie Jones, Samson Main, Celia Mengyue Li, Jonathan Marriott and Alex Kavvos.</p>
+          <p>Wednesday 10:30 at Nef</p>
+          <p>Functional Logic Programming (FLP) is a paradigm that extends higher-order functional programming with nondeterministic choice, logical variables, and equational constraints. Starting from the observation that these constructs can be presented as algebraic effects, we rationally reconstruct a core calculus for FLP that is based on call-by-push-value, and supports higher-order functions and recursion. We show how to execute its programs through an abstract machine that implements narrowing. Finally, we present a domain-theoretic semantics based on the lower powerdomain, which we prove to be sound, adequate, and fully abstract with respect to the machine. This leads to an exploration of the limitations of domain theory in modelling FLP.</p>
+        </li>
+        <li>
+          <p><a href="https://dl.acm.org/doi/10.1145/3776724" target="_blank" rel="noreferrer">A Complementary Approach to Incorrectness Typing</a>, by Celia Mengyue Li, Sophie Pull and Steven Ramsay.</p>
+          <p>Thursday 16:10 at Dortoirs</p>
+          <p>We introduce a new two-sided type system for verifying the correctness and incorrectness of functional programs with atoms and pattern matching. A key idea in the work is that types should range over sets of normal forms, rather than sets of values, and this allows us to define a complement operator on types that acts as a negation on typing formulas. We show that the complement allows us to derive a wide range of refutation principles within the system, including the type-theoretic analogue of co-implication, and we use them to certify that a number of Erlang-like programs go wrong. An expressive axiomatisation of the complement operator via subtyping is shown decidable, and the type system as a whole is shown to be not only sound, but also complete for normal forms.</p>
+        </li>
+      </ul>
+    </div>,
+  ],
+  [
     "November 2025",
     "Wenjia Ye has joined the group as a senior research associate, after a PhD from University of Hong Kong and a PostDoc stint at National University of Singapore. She will be working on gradual typing for Rust with Meng Wang and Cristina David.",
   ],
