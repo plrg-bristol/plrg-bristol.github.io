@@ -36,7 +36,7 @@ const faculty = [
     link: "https://ec-jones.github.io/",
   },
   {
-    name: "Sam Frohlich",
+    name: "Dr Sam Frohlich",
     src: "images/people/sam.jpg",
     link: "https://samfrohlich.github.io/",
   },
