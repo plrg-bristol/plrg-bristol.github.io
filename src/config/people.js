@@ -40,6 +40,11 @@ const faculty = [
     src: "images/people/sam.jpg",
     link: "https://samfrohlich.github.io/",
   },
+  {
+    name: "Dr Xiyue Zhang",
+    src: "images/people/xiyue.jpg",
+    link: "https://zhang-xiyue.github.io/",
+  },
 ];
 
 const researchAssociates = [
