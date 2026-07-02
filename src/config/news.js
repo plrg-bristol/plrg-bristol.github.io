@@ -7,6 +7,45 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "July 2026",
+    <div>
+      Meng Wang has joined the{" "}
+      <a
+        href="https://jfp.episciences.org/en/boards"
+        target="_blank"
+        rel="noreferrer"
+      >
+        board of the Journal of Functional Programming
+      </a>{" "}
+      as an editor.
+    </div>,
+  ],
+  [
+    "June 2026",
+    "Sam Frohlich will serve on the OOPSLA and ICFP 2027 Program Committees.",
+  ],
+  [
+    "15 June 2026",
+    <div>
+      <a
+        href="https://haskell.foundation/podcast/83/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Part 2 of Jess' series of interviews at POPL 2026
+      </a>{" "}
+      has been published on the{" "}
+      <a
+        href="https://haskell.foundation/podcast/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Haskell Interlude podcast
+      </a>
+      , featuring our very own Eddie Jones and Tom Divers.
+    </div>,
+  ],
+  [
     "13 April 2026",
     <div>
       <a
