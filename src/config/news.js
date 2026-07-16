@@ -7,6 +7,40 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "15 July 2026",
+    <div>
+      <VideoComponent src="https://www.youtube.com/embed/2EZ71b8Jnhs?si=A3xpDHWdYkh-UrSo" />
+      <p>
+        We've started a{" "}
+        <a
+          href="https://www.youtube.com/@PLRGBristol"
+          target="_blank"
+          rel="noreferrer"
+        >
+          YouTube channel
+        </a>{" "}
+        where we'll be uploading talks from some of the wonderful guest speakers
+        who visit us in Bristol. Our first talk is 'Well-scoped de Bruijn
+        expressions in Dependent Haskell' from Stephanie Weirich!
+      </p>
+    </div>,
+  ],
+  [
+    "July 2026",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "Dr Meng Wang and Dr Samantha Frohlich dressed up in graduation robes and shaking hands."
+          }
+          src={"images/news/sam-grad.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>Congratulations to Dr Samantha Frohlich on her graduation!</p>
+    </div>,
+  ],
+  [
     "July 2026",
     <div>
       Meng Wang has joined the{" "}
