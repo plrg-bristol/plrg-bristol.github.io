@@ -7,6 +7,31 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "31 July 2026",
+    <div>
+      <VideoComponent src="https://www.youtube.com/embed/dyRiPJM4DNw?si=pl__0WskXWD6fRgu" />
+      <p>
+        Sam's PLDI talk for{" "}
+        <a
+          href="https://doi.org/10.1145/3808269"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Contextual Embedding
+        </a>{" "}
+        has been posted to the{" "}
+        <a
+          href="https://www.youtube.com/@acmsigplan"
+          target="_blank"
+          rel="noreferrer"
+        >
+          ACM SIGPLAN YouTube channel
+        </a>
+        !
+      </p>
+    </div>,
+  ],
+  [
     "15 July 2026",
     <div>
       <VideoComponent src="https://www.youtube.com/embed/2EZ71b8Jnhs?si=A3xpDHWdYkh-UrSo" />
