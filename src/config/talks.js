@@ -12,6 +12,21 @@ const talks = [
   //   video: <VideoComponent src="TODO: embedded youtube link" />,
   // },
   {
+    title: (
+      <a href="https://doi.org/10.1145/3808269">
+        Contextual Embeddings: Implementing Bound Variables through Instance
+        Resolution
+      </a>
+    ),
+    authors: (
+      <div>
+        <em>Samantha Frohlich</em>, Jessica Foster, G. A. Kavvos, and Meng Wang
+      </div>
+    ),
+    location: "PLDI'26",
+    video: <VideoComponent src="https://www.youtube.com/embed/dyRiPJM4DNw" />,
+  },
+  {
     title:
       "Scalable, Validated Code Translation of Entire Projects using Large Language Models",
     authors: (

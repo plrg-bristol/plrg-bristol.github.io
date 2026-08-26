@@ -7,9 +7,70 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "August 2026",
+    <div>
+      Alex Wood is starting a PhD, co-funded by UKRI and Canonical, to
+      investigate automated C to Rust translations, building on our{" "}
+      <a
+        href="https://doi.org/10.1145/3729315"
+        target="_blank"
+        rel="noreferrer"
+      >
+        previous research
+      </a>{" "}
+      <a
+        href="https://doi.org/10.1007/978-3-031-37709-9_22"
+        target="_blank"
+        rel="noreferrer"
+      >
+        in this area
+      </a>
+      . This has drawn media attention from outlets like{" "}
+      <a
+        href="https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959"
+        target="_blank"
+        rel="noreferrer"
+      >
+        The Register
+      </a>{" "}
+      and{" "}
+      <a
+        href="https://www.infoworld.com/article/4212147/canonical-and-uks-university-of-bristol-partner-to-investigate-automated-c-to-rust-translations.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        InfoWorld
+      </a>
+      . The project will be led by Canonical's Jon Seager and PLRG's Meng Wang
+      and Cristina David. See{" "}
+      <a
+        href="https://discourse.ubuntu.com/t/investing-in-automated-c-to-rust-translation/86369"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Jon's post about the project
+      </a>{" "}
+      for more details.
+    </div>,
+  ],
+  [
+    "August 2026",
+    <div>
+      April Tune and Alex Kavvos' paper '
+      <a
+        href="https://doi.org/10.1145/3828686"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Bimodels and Biorthogonality for Abstract Machines
+      </a>
+      ' has been accepted at ICFP'26.
+    </div>,
+  ],
+  [
     "31 July 2026",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/dyRiPJM4DNw?si=pl__0WskXWD6fRgu" />
+      <VideoComponent src="https://www.youtube.com/embed/dyRiPJM4DNw" />
       <p>
         Sam's PLDI talk for{" "}
         <a
@@ -32,9 +93,20 @@ const news = [
     </div>,
   ],
   [
+    "21 July 2026",
+    <div>
+      <VideoComponent src="https://www.youtube.com/embed/Vc2ninFboYY" />
+      <p>
+        We had the wonderful Conor Titania Mc Bride talk to us about a new twist
+        on implementing Hindley-Milner type inference. Specifically, using the
+        magic of effects to make bookkeeping disappear!
+      </p>
+    </div>,
+  ],
+  [
     "15 July 2026",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/2EZ71b8Jnhs?si=A3xpDHWdYkh-UrSo" />
+      <VideoComponent src="https://www.youtube.com/embed/2EZ71b8Jnhs" />
       <p>
         We've started a{" "}
         <a
@@ -572,7 +644,7 @@ const news = [
   [
     "June 2022",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/GcN9YTYQDsA?si=vkMPo9_4s0gP8fhn" />
+      <VideoComponent src="https://www.youtube.com/embed/GcN9YTYQDsA" />
       <p>
         Alex gave a talk on Two-Dimensional Kripke Semantics at{" "}
         <a href="https://oxford24.github.io/">MFPS 2024</a> in Oxford.
@@ -696,7 +768,7 @@ const news = [
           <li>
             Sam also presented "Embedding by Unembedding" (
             <a
-              href="https://www.youtube.com/live/ZQ_U-LANbc4?si=q0xS9exCb8c1TbeV&t=12028"
+              href="https://www.youtube.com/watch?v=dyRiPJM4DNw"
               target="_blank"
               rel="noreferrer"
             >
@@ -708,7 +780,7 @@ const news = [
             Minh presented "Effect Handlers for Programmable Inference" at
             Haskell Symposium (
             <a
-              href="https://www.youtube.com/live/c6QAjzunnf8?si=j2alAErgrJz_m-Pt&t=11026"
+              href="https://www.youtube.com/live/c6QAjzunnf8?t=11026"
               target="_blank"
               rel="noreferrer"
             >

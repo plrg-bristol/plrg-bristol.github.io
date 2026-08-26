@@ -119,6 +119,11 @@ const students = [
   {
     name: "Piotr Kozicki",
     src: "images/people/piotr.jpg",
+    link: "https://ofthegoats.github.io/",
+  },
+  {
+    name: "Alex Wood",
+    src: NO_IMG_SRC,
   },
 ];
 
