@@ -123,7 +123,7 @@ const students = [
   },
   {
     name: "Alex Wood",
-    src: NO_IMG_SRC,
+    src: "images/people/alex-wood.jpg",
   },
 ];
 
