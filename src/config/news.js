@@ -9,7 +9,7 @@ const news = [
   [
     "1 September 2026",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/twKSuUbMH9A?si=70be6vUstv-kEnNx" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/twKSuUbMH9A" />
       <p>
         The{" "}
         <a
@@ -97,7 +97,7 @@ const news = [
   [
     "31 July 2026",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/dyRiPJM4DNw" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/dyRiPJM4DNw" />
       <p>
         Sam's PLDI talk for{" "}
         <a
@@ -122,7 +122,7 @@ const news = [
   [
     "21 July 2026",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/Vc2ninFboYY" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/Vc2ninFboYY" />
       <p>
         We had the wonderful Conor Titania Mc Bride talk to us about a new twist
         on implementing Hindley-Milner type inference. Specifically, using the
@@ -133,7 +133,7 @@ const news = [
   [
     "15 July 2026",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/2EZ71b8Jnhs" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/2EZ71b8Jnhs" />
       <p>
         We've started a{" "}
         <a
@@ -671,7 +671,7 @@ const news = [
   [
     "June 2022",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/GcN9YTYQDsA" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/GcN9YTYQDsA" />
       <p>
         Alex gave a talk on Two-Dimensional Kripke Semantics at{" "}
         <a href="https://oxford24.github.io/">MFPS 2024</a> in Oxford.
@@ -1006,7 +1006,7 @@ const news = [
   [
     "January 2022",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/Ov1HOMKn8t4" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/Ov1HOMKn8t4" />
       <p>
         Roly Perera presented{" "}
         <a href="http://dynamicaspects.org/papers/popl22-final.pdf">
@@ -1019,7 +1019,7 @@ const news = [
   [
     "January 2022",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/LGaTnxYcdm4" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/LGaTnxYcdm4" />
       <p>
         Sam Frohlich presented{" "}
         <a href="https://arxiv.org/pdf/2111.12420.pdf">
@@ -1032,7 +1032,7 @@ const news = [
   [
     "January 2022",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/SUZ-eqprNg0" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/SUZ-eqprNg0" />
       <p>
         {" "}
         NingNing Xie presented{" "}
@@ -1047,7 +1047,7 @@ const news = [
   [
     "November 2021",
     <div>
-      <VideoComponent src="https://www.youtube.com/embed/z8uPHKOTx6s" />
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/z8uPHKOTx6s" />
       <p>
         Sam Frohlich is giving a series of lectures on embedded domain specific
         languages! Here's a lecture premier.
