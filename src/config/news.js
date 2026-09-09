@@ -7,6 +7,33 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "1 September 2026",
+    <div>
+      <VideoComponent src="https://www.youtube.com/embed/twKSuUbMH9A?si=70be6vUstv-kEnNx" />
+      <p>
+        The{" "}
+        <a
+          href="https://2025.splashcon.org/track/splash-2025-farm"
+          target="_blank"
+          rel="noreferrer"
+        >
+          FARM 2025
+        </a>{" "}
+        performance videos, filmed and edited by PLRG's Jessica Foster, have
+        been released on YouTube. See the{" "}
+        <a
+          href="https://youtube.com/playlist?list=PLF5xDewoVNoc"
+          target="_blank"
+          rel="noreferrer"
+        >
+          full playlist here
+        </a>
+        . A big thank you to Mae Milano and FARM for funding Jess' trip to
+        Singapore and the rental of (very nice) AV equipment!
+      </p>
+    </div>,
+  ],
+  [
     "August 2026",
     <div>
       Alex Wood is starting a PhD, co-funded by UKRI and Canonical, to
