@@ -7,6 +7,49 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "15 September 2026",
+    <div>
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/4TRYc61pG-M" />
+      <p>
+        Yusuke Matsushita visited us in Bristol and gave an extended talk on his
+        work with Hiromi Ishii on{" "}
+        <a
+          href="https://doi.org/10.1145/3808259"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Pure Borrow
+        </a>
+        , which adds Rust-style borrowing to pure Haskell!
+      </p>
+    </div>,
+  ],
+  [
+    "14 September 2026",
+    <div>
+      <div className="d-flex justify-content-center align-items-center">
+        <ImageComponent
+          alt={
+            "PLRG group members smiling and posing in front of their beautiful cakes."
+          }
+          src={"images/news/bake-it-group-photo.jpg"}
+          maxHeight="315px"
+        />
+      </div>
+      <p>
+        For Dr Sam's PhD celebration we went to{" "}
+        <a
+          href="https://www.bakeitbristol.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Bake It! Bristol
+        </a>{" "}
+        for a PLRG bake off.
+      </p>
+    </div>,
+  ],
+  [
     "1 September 2026",
     <div>
       <VideoComponent src="https://www.youtube-nocookie.com/embed/twKSuUbMH9A" />
