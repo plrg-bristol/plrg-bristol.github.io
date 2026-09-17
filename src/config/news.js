@@ -7,6 +7,16 @@ import ImageComponent from "../components/generics/imageComponent";
 
 const news = [
   [
+    "17 September 2026",
+    <div>
+      <VideoComponent src="https://www.youtube-nocookie.com/embed/ndUVM28-J-s" />
+      <p>
+        Jeremy Gibbons spoke to us about using streaming algorithms in Haskell
+        to compute as many digits of π as your heart desires!
+      </p>
+    </div>,
+  ],
+  [
     "15 September 2026",
     <div>
       <VideoComponent src="https://www.youtube-nocookie.com/embed/4TRYc61pG-M" />
