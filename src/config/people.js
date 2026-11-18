@@ -58,6 +58,11 @@ const researchAssociates = [
     src: "images/people/wenjia.jpg",
     link: "https://yewenjia.github.io/",
   },
+  {
+    name: "Guillaume Duboc",
+    src: "images/people/guillaume.jpg",
+    link: "https://gldubc.github.io/",
+  },
 ];
 
 const doctoralTeachingAssociates = [
